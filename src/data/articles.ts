@@ -29,6 +29,7 @@ import tomatoOnAStickHeaderImage from '@/context/GLlmyJhNPc.png'
 import tomatoOnAStickAuctionImage from '@/context/hEe6yXGrxq.png'
 import pearlHippoHeaderImage from '@/context/0K3KjYAAoo.png'
 import pearlHippoInlineImage from '@/context/ZQNT9tzwsz.png'
+import growingNanaAscendImage from '@/context/CqOlkE5Jyn.jpg'
 
 
 const hero1Image =
@@ -93,35 +94,28 @@ export interface Article {
 
 export const articles: Article[] = [
   {
-    id: '98437334',
-    title: 'Zoo Reveals Surprise Baby Pygmy Hippo "Pearl" Ahead of Netflix Documentary',
+    id: '98437339',
+    title:
+      '"The Growing Nana – Ascend" Sells for Record-Breaking $11.4 Million, Becoming the World\'s Most Expensive Fruit Growth Artwork',
     summary:
-      'After weeks of secrecy, the zoo has announced Pearl — an incredibly rare albino pygmy hippo calf born just a few weeks ago. Her earliest milestones were filmed for Pygmy: Early Life of Pearl, a Netflix documentary premiering next month.',
+      'The minimalist banana-evolution painting sold for $11.4 million at a packed New York auction, setting a fictional world record for fruit growth-themed art and turning an internet joke into one of the most talked-about works in contemporary conceptual art.',
     body: [
-      { type: 'heading', text: 'August 2026' },
-      'After weeks of speculation, the mystery has finally been solved.',
-      'The zoo has officially announced the birth of Pearl, an incredibly rare albino pygmy hippo calf who was born just a few weeks ago. Staff had kept her arrival completely secret while she adjusted to life behind the scenes alongside her protective mother.',
-      {
-        type: 'image',
-        src: pearlHippoInlineImage,
-        caption: 'Pearl, the albino pygmy hippo calf, during her first weeks behind the scenes at the zoo.',
-        alt: 'Baby pygmy hippo Pearl resting beside her mother in an indoor enclosure.',
-      },
-      'According to zoo officials, Pearl received around-the-clock care during her first weeks of life. Veterinarians closely monitored her growth, making sure she was feeding well, gaining weight, and becoming confident enough to explore her habitat.',
-      'The decision to keep Pearl hidden wasn\'t only for her health.',
-      'The zoo confirmed that a documentary crew had been quietly filming every major milestone since the day she was born. Cameras captured everything—from her first steps and first swim to the special bond she shares with her mother.',
-      'Those moments will be featured in Pygmy: Early Life of Pearl, an upcoming wildlife documentary scheduled to premiere on Netflix next month. The film is said to follow Pearl\'s earliest adventures while also highlighting the importance of pygmy hippo conservation.',
-      '"Pearl is one of the most extraordinary animals we\'ve ever cared for," zoo director Emma Collins said. "We wanted to give her the calmest possible start before introducing her to the world. Seeing her thrive has been a privilege."',
-      'Visitors will be able to meet Pearl for the first time during a special public debut later this month. To protect her health, daily viewing times will be limited, and keepers will closely supervise all interactions.',
-      'The documentary will also include behind-the-scenes footage of the dedicated keepers who cared for Pearl through her first weeks, as well as never-before-seen moments filmed after the zoo closed each evening.',
-      'Fans are already eagerly awaiting the release, hoping to witness the remarkable journey of one of the world\'s rarest young animals.',
-      'Read more: https://help.netflix.com/en/node/113539',
+      'NEW YORK — In one of the most surprising moments in contemporary art history, the painting "The Growing Nana – Ascend" was sold for $11.4 million during an intense evening auction, setting a new fictional world record for a fruit growth-themed artwork.',
+      'The minimalist painting, featuring the simple evolution of a banana from a tiny green sprout into a large, confident banana with exaggerated muscles and sunglasses, captivated collectors after months of online discussion. What first appeared to many as an internet joke quickly transformed into one of the most talked-about works in modern conceptual art.',
+      'The bidding reportedly began at just $800,000 before rapidly escalating as collectors from around the world competed for ownership. After nearly eight minutes of nonstop bidding, the hammer finally fell at $11.4 million, drawing applause from the packed auction room.',
+      'Art critics described the work as "a perfect representation of modern internet culture meeting contemporary conceptual art."',
+      'Unlike traditional paintings focused on realism, "The Growing Nana – Ascend" tells a story through simplicity. Each stage of the banana\'s growth represents personal development, resilience, and the pursuit of becoming a stronger version of oneself. The final banana, humorously depicted with oversized muscles and sunglasses, has already become a viral symbol across social media, where thousands of users have nicknamed it the "Gigachad Banana."',
+      'Several museums reportedly attempted to secure the piece before private collectors entered the bidding war. Industry experts believe the painting\'s value was driven not only by its visual simplicity but also by its massive online popularity, with millions of views and countless memes appearing within days of its reveal.',
+      '"The internet created a cultural icon almost overnight," one contemporary art analyst said. "People laughed at it first. Then they connected with it. Eventually, they wanted to own a piece of that cultural moment."',
+      'Collectors also praised the painting\'s title, "The Growing Nana – Ascend," saying it perfectly captures the universal idea of growth through persistence while embracing internet humor.',
+      'Following the sale, images of the artwork spread rapidly across social platforms, inspiring thousands of fan recreations, edits, and memes. Some compared its cultural impact to other famous conceptual fruit artworks, while others argued that "The Growing Nana – Ascend" represents the next evolution of meme-inspired fine art.',
+      'Whether viewed as satire, philosophy, or simply an unforgettable internet joke, "The Growing Nana – Ascend" has, in this fictional story, cemented itself as one of the defining artworks of the meme era—proving that sometimes the simplest ideas can grow into something extraordinary.',
     ],
-    category: 'World',
-    time: '09:15',
-    section: 'hot',
-    image: pearlHippoHeaderImage,
-    byline: 'NPS World Desk',
+    category: 'Culture',
+    time: '19:30',
+    section: 'culture',
+    image: growingNanaAscendImage,
+    byline: 'NPS Culture Desk',
     date: '2026-08-06',
   },
 
