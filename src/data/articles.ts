@@ -94,32 +94,6 @@ export interface Article {
 
 export const articles: Article[] = [
   {
-    id: '98437339',
-    title:
-      '"The Growing Nana – Ascend" Sells for Record-Breaking $11.4 Million, Becoming the World\'s Most Expensive Fruit Growth Artwork',
-    summary:
-      'The minimalist banana-evolution painting sold for $11.4 million at a packed New York auction, setting a fictional world record for fruit growth-themed art and turning an internet joke into one of the most talked-about works in contemporary conceptual art.',
-    body: [
-      'NEW YORK — In one of the most surprising moments in contemporary art history, the painting "The Growing Nana – Ascend" was sold for $11.4 million during an intense evening auction, setting a new fictional world record for a fruit growth-themed artwork.',
-      'The minimalist painting, featuring the simple evolution of a banana from a tiny green sprout into a large, confident banana with exaggerated muscles and sunglasses, captivated collectors after months of online discussion. What first appeared to many as an internet joke quickly transformed into one of the most talked-about works in modern conceptual art.',
-      'The bidding reportedly began at just $800,000 before rapidly escalating as collectors from around the world competed for ownership. After nearly eight minutes of nonstop bidding, the hammer finally fell at $11.4 million, drawing applause from the packed auction room.',
-      'Art critics described the work as "a perfect representation of modern internet culture meeting contemporary conceptual art."',
-      'Unlike traditional paintings focused on realism, "The Growing Nana – Ascend" tells a story through simplicity. Each stage of the banana\'s growth represents personal development, resilience, and the pursuit of becoming a stronger version of oneself. The final banana, humorously depicted with oversized muscles and sunglasses, has already become a viral symbol across social media, where thousands of users have nicknamed it the "Gigachad Banana."',
-      'Several museums reportedly attempted to secure the piece before private collectors entered the bidding war. Industry experts believe the painting\'s value was driven not only by its visual simplicity but also by its massive online popularity, with millions of views and countless memes appearing within days of its reveal.',
-      '"The internet created a cultural icon almost overnight," one contemporary art analyst said. "People laughed at it first. Then they connected with it. Eventually, they wanted to own a piece of that cultural moment."',
-      'Collectors also praised the painting\'s title, "The Growing Nana – Ascend," saying it perfectly captures the universal idea of growth through persistence while embracing internet humor.',
-      'Following the sale, images of the artwork spread rapidly across social platforms, inspiring thousands of fan recreations, edits, and memes. Some compared its cultural impact to other famous conceptual fruit artworks, while others argued that "The Growing Nana – Ascend" represents the next evolution of meme-inspired fine art.',
-      'Whether viewed as satire, philosophy, or simply an unforgettable internet joke, "The Growing Nana – Ascend" has, in this fictional story, cemented itself as one of the defining artworks of the meme era—proving that sometimes the simplest ideas can grow into something extraordinary.',
-    ],
-    category: 'Culture',
-    time: '19:30',
-    section: 'culture',
-    image: growingNanaAscendImage,
-    byline: 'NPS Culture Desk',
-    date: '2026-08-06',
-  },
-
-  {
     id: '98437335',
     title: 'Grinning Mamdani relentlessly booed at NYPD Staten Island event',
     summary:
