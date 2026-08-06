@@ -27,6 +27,8 @@ import podumHippoRescueImage from '@/context/nd6sy37GsS.jpg'
 import eliseCapybaraImage from '@/context/0ygixazBRW.png'
 import tomatoOnAStickHeaderImage from '@/context/GLlmyJhNPc.png'
 import tomatoOnAStickAuctionImage from '@/context/hEe6yXGrxq.png'
+import pearlHippoHeaderImage from '@/context/0K3KjYAAoo.png'
+import pearlHippoInlineImage from '@/context/ZQNT9tzwsz.png'
 
 
 const hero1Image =
@@ -90,6 +92,39 @@ export interface Article {
 }
 
 export const articles: Article[] = [
+  {
+    id: '98437334',
+    title: 'Zoo Reveals Surprise Baby Pygmy Hippo "Pearl" Ahead of Netflix Documentary',
+    summary:
+      'After weeks of secrecy, the zoo has announced Pearl — an incredibly rare albino pygmy hippo calf born just a few weeks ago. Her earliest milestones were filmed for Pygmy: Early Life of Pearl, a Netflix documentary premiering next month.',
+    body: [
+      { type: 'heading', text: 'August 2026' },
+      'After weeks of speculation, the mystery has finally been solved.',
+      'The zoo has officially announced the birth of Pearl, an incredibly rare albino pygmy hippo calf who was born just a few weeks ago. Staff had kept her arrival completely secret while she adjusted to life behind the scenes alongside her protective mother.',
+      {
+        type: 'image',
+        src: pearlHippoInlineImage,
+        caption: 'Pearl, the albino pygmy hippo calf, during her first weeks behind the scenes at the zoo.',
+        alt: 'Baby pygmy hippo Pearl resting beside her mother in an indoor enclosure.',
+      },
+      'According to zoo officials, Pearl received around-the-clock care during her first weeks of life. Veterinarians closely monitored her growth, making sure she was feeding well, gaining weight, and becoming confident enough to explore her habitat.',
+      'The decision to keep Pearl hidden wasn\'t only for her health.',
+      'The zoo confirmed that a documentary crew had been quietly filming every major milestone since the day she was born. Cameras captured everything—from her first steps and first swim to the special bond she shares with her mother.',
+      'Those moments will be featured in Pygmy: Early Life of Pearl, an upcoming wildlife documentary scheduled to premiere on Netflix next month. The film is said to follow Pearl\'s earliest adventures while also highlighting the importance of pygmy hippo conservation.',
+      '"Pearl is one of the most extraordinary animals we\'ve ever cared for," zoo director Emma Collins said. "We wanted to give her the calmest possible start before introducing her to the world. Seeing her thrive has been a privilege."',
+      'Visitors will be able to meet Pearl for the first time during a special public debut later this month. To protect her health, daily viewing times will be limited, and keepers will closely supervise all interactions.',
+      'The documentary will also include behind-the-scenes footage of the dedicated keepers who cared for Pearl through her first weeks, as well as never-before-seen moments filmed after the zoo closed each evening.',
+      'Fans are already eagerly awaiting the release, hoping to witness the remarkable journey of one of the world\'s rarest young animals.',
+      'Read more: https://help.netflix.com/en/node/113539',
+    ],
+    category: 'World',
+    time: '09:15',
+    section: 'hot',
+    image: pearlHippoHeaderImage,
+    byline: 'NPS World Desk',
+    date: '2026-08-06',
+  },
+
   {
     id: '98437335',
     title: 'Grinning Mamdani relentlessly booed at NYPD Staten Island event',
