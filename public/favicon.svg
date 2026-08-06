@@ -1,6 +1,8 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Wafer News">
-  <rect width="32" height="32" fill="#111111"/>
-  <rect x="1" y="1" width="30" height="30" fill="none" stroke="#ffffff" stroke-width="0.75"/>
-  <path d="M5 9.5 L8 22.5 L11 15.5 L14 22.5 L17 9.5" stroke="#ffffff" stroke-width="2.9" stroke-linecap="butt" stroke-linejoin="round" fill="none"/>
-  <path d="M19.4 22.5 L19.4 9.5 L27 22.5 L27 9.5" stroke="#ffffff" stroke-width="2.9" stroke-linecap="butt" stroke-linejoin="round" fill="none"/>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="News Paper Stall">
+  <rect width="32" height="32" fill="#d81f26"/>
+  <g stroke="#ffffff" stroke-width="2.8" stroke-linecap="butt" stroke-linejoin="round" fill="none">
+    <path d="M2.3 22.8 L2.3 9.2 L7.7 22.8 L7.7 9.2"/>
+    <path d="M12.3 22.8 L12.3 9.2 L14.9 9.2 A3.4 3.4 0 0 1 14.9 16 L12.3 16"/>
+    <path d="M29.24 14.3 A3.4 3.4 0 1 0 26.3 16 A3.4 3.4 0 1 1 23.36 21.1"/>
+  </g>
 </svg>

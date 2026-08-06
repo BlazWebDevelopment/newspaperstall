@@ -115,7 +115,7 @@ export const articles: Article[] = [
     time: '11:40',
     section: 'hot',
     image: '/images/np-mamdani-booed-si-2.jpg',
-    byline: 'Wafer News Metro Desk',
+    byline: 'NPS Metro Desk',
     date: '2026-08-06',
   },
 
@@ -159,7 +159,7 @@ export const articles: Article[] = [
     time: '11:10',
     section: 'culture',
     image: '/images/np-boltinhouse-miss-nc.jpg',
-    byline: 'Wafer News Culture Desk',
+    byline: 'NPS Culture Desk',
     date: '2026-08-06',
   },
 
@@ -206,7 +206,7 @@ export const articles: Article[] = [
     time: '10:25',
     section: 'newspaper',
     image: '/images/np-desouza-yale-wendys.jpg',
-    byline: 'Wafer News US Desk',
+    byline: 'NPS US Desk',
     date: '2026-08-06',
   },
 
@@ -252,32 +252,8 @@ export const articles: Article[] = [
     time: '09:50',
     section: 'opinion',
     image: '/images/np-lackard-police-chief.jpg',
-    byline: 'Wafer News Opinion',
+    byline: 'NPS Opinion',
     date: '2026-08-06',
-  },
-
-  {
-    id: '98437333',
-    title: 'Baby hippo descended from Escobar\'s herd rescued in Colombia',
-    summary:
-      'Colombian authorities rescued a malnourished baby hippopotamus named Podum found alone by fishermen in Antioquia, the latest chapter in the country\'s struggle to manage roughly 200 invasive hippos descended from Pablo Escobar\'s private zoo.',
-    body: [
-      'Authorities in northwestern Colombia said they rescued a baby hippopotamus named Podum found alone by fishermen on the banks of a river and showing signs of malnutrition.',
-      'Colombia has around 200 invasive hippos living in the wild, according to the Environment Ministry, all of which descended from a colony brought to South America by slain cocaine kingpin Pablo Escobar.',
-      'Fishermen found the small hippo, Podum, separated from its mother and hidden in the bushes along the riverbank in a rural area of the Puerto Nare municipality in Antioquia, said Javier Valencia, director of the regional environmental authority, in a statement on Tuesday.',
-      'Veterinarians treated Podum for "advanced dehydration and malnutrition," according to a statement.',
-      'After being stabilized, Podum was transferred to a hippo sanctuary at Hacienda Napoles, the estate previously owned by Escobar and which is now a theme park.',
-      'Escobar imported four hippos in the 1980s for his private zoo at the hacienda.',
-      'After the Medellin cartel leader\'s death in 1993, the animals escaped and settled along the banks of the Magdalena River, where they have disrupted the ecosystem and even attacked local residents.',
-      'They are now considered an invasive species and are destabilizing native ecosystems, prompting the government this year to approve a plan to cull around 80 of them after attempts to curb their reproduction through sterilization failed.',
-      'It is the largest hippo colony outside Africa.',
-    ],
-    category: 'World',
-    time: '19:45',
-    section: 'newspaper',
-    image: podumHippoRescueImage,
-    byline: 'Wafer News World Desk',
-    date: '2026-08-05',
   },
 
   {
@@ -305,7 +281,7 @@ export const articles: Article[] = [
     time: '15:25',
     section: 'opinion',
     image: '/images/np-ebike-menace.jpg',
-    byline: 'Wafer News Editorial Board',
+    byline: 'NPS Editorial Board',
     date: '2026-07-31',
   },
 
@@ -334,7 +310,7 @@ export const articles: Article[] = [
     time: '13:50',
     section: 'live',
     image: '/images/np-lindsay-clancy-trial.jpg',
-    byline: 'Wafer News Crime Desk',
+    byline: 'NPS Crime Desk',
     date: '2026-07-31',
   },
 
@@ -368,7 +344,7 @@ export const articles: Article[] = [
     time: '11:15',
     section: 'hot',
     image: '/images/np-elizabeth-waddell.jpg',
-    byline: 'Wafer News National Desk',
+    byline: 'NPS National Desk',
     date: '2026-07-31',
   },
 
@@ -398,7 +374,7 @@ export const articles: Article[] = [
     time: '08:00',
     section: 'culture',
     image: '/images/np-dominique-dillon.jpg',
-    byline: 'Wafer News Media Desk',
+    byline: 'NPS Media Desk',
     date: '2026-07-31',
   },
 
@@ -443,7 +419,7 @@ export const articles: Article[] = [
     time: '10:25',
     section: 'opinion',
     image: '/images/np-young-democrats-socialism.jpg',
-    byline: 'Wafer News Editorial',
+    byline: 'NPS Editorial',
     date: '2026-07-30',
   },
 
@@ -538,7 +514,7 @@ export const articles: Article[] = [
     time: '06:30',
     section: 'hot',
     image: '/images/np-ceuta-migrants.jpg',
-    byline: 'Wafer News World Desk',
+    byline: 'NPS World Desk',
     date: '2026-07-31',
   },
 
@@ -571,7 +547,7 @@ export const articles: Article[] = [
     time: '05:15',
     section: 'newspaper',
     image: '/images/np-hartman-colorado.jpg',
-    byline: 'Wafer News National Desk',
+    byline: 'NPS National Desk',
     date: '2026-07-30',
   },
 
@@ -648,7 +624,7 @@ export const articles: Article[] = [
     time: '16:55',
     section: 'newspaper',
     image: '/images/np-troy-jackson.jpg',
-    byline: 'Wafer News Politics Desk',
+    byline: 'NPS Politics Desk',
     date: '2026-07-30',
   },
 
@@ -704,7 +680,7 @@ export const articles: Article[] = [
     time: '19:40',
     section: 'finance',
     image: '/images/np-polymarket-kalshi.jpg',
-    byline: 'Wafer News Business Desk',
+    byline: 'NPS Business Desk',
     date: '2026-07-30',
   },
 
@@ -727,7 +703,7 @@ export const articles: Article[] = [
     time: '03:45',
     section: 'newspaper',
     image: '/images/np-nypd-shark-drones.jpg',
-    byline: 'Wafer News Metro Desk',
+    byline: 'NPS Metro Desk',
     date: '2026-07-31',
   },
 
@@ -752,7 +728,7 @@ export const articles: Article[] = [
     time: '22:15',
     section: 'hot',
     image: '/images/np-luigi-mangione.jpg',
-    byline: 'Wafer News Crime Desk',
+    byline: 'NPS Crime Desk',
     date: '2026-07-30',
   },
 
@@ -784,7 +760,7 @@ export const articles: Article[] = [
     time: '10:45',
     section: 'sports',
     image: '/images/8YZfMualzD.png',
-    byline: 'Wafer News Sports Desk',
+    byline: 'NPS Sports Desk',
     date: '2026-06-11',
   },
 
@@ -811,7 +787,7 @@ export const articles: Article[] = [
     time: '16:20',
     section: 'opinion',
     image: '/images/z81IyDzxJl.png',
-    byline: 'Wafer News Editorial',
+    byline: 'NPS Editorial',
     date: '2026-06-11',
   },
 
@@ -838,7 +814,7 @@ export const articles: Article[] = [
     time: '14:30',
     section: 'newspaper',
     image: '/images/zwZlFEbUTD.png',
-    byline: 'Wafer News Crime Desk',
+    byline: 'NPS Crime Desk',
     date: '2026-06-11',
   },
 
@@ -895,7 +871,7 @@ export const articles: Article[] = [
     time: '23:42',
     section: 'sports',
     image: '/images/RFtKBKXdI3.png',
-    byline: 'Wafer News Sports Desk',
+    byline: 'NPS Sports Desk',
     date: '2026-06-11',
   },
 
@@ -1017,7 +993,7 @@ export const articles: Article[] = [
     time: '11:32',
     section: 'culture',
     image: craigWayneBoydImage,
-    byline: 'Wafer News Culture Desk',
+    byline: 'NPS Culture Desk',
     date: '2026-05-06',
   },
   {
@@ -1037,7 +1013,7 @@ export const articles: Article[] = [
     time: '11:31',
     section: 'culture',
     image: mcdonaldsSodaImage,
-    byline: 'Wafer News Food Desk',
+    byline: 'NPS Food Desk',
     date: '2026-05-06',
   },
 
@@ -1057,7 +1033,7 @@ export const articles: Article[] = [
     time: '11:29',
     section: 'culture',
     image: americanMusicAwardsImage,
-    byline: 'Wafer News Culture Desk',
+    byline: 'NPS Culture Desk',
     date: '2026-05-06',
   },
 
@@ -1076,7 +1052,7 @@ export const articles: Article[] = [
     time: '11:28',
     section: 'tech',
     image: xboxCopilotImage,
-    byline: 'Wafer News Tech Desk',
+    byline: 'NPS Tech Desk',
     date: '2026-05-06',
   },
 
@@ -1104,7 +1080,7 @@ export const articles: Article[] = [
     time: '15:44',
     section: 'tech',
     image: swabotInlineImage,
-    byline: 'Wafer News Tech Desk',
+    byline: 'NPS Tech Desk',
     date: '2026-05-05',
   },
 
@@ -1131,7 +1107,7 @@ export const articles: Article[] = [
     time: '14:31',
     section: 'culture',
     image: blueIvyMetGalaImage,
-    byline: 'Wafer News Culture Desk',
+    byline: 'NPS Culture Desk',
     date: '2026-05-05',
   },
 
@@ -1158,7 +1134,7 @@ export const articles: Article[] = [
     time: '14:26',
     section: 'newspaper',
     image: ronDesantis2028Image,
-    byline: 'Wafer News Politics Desk',
+    byline: 'NPS Politics Desk',
     date: '2026-05-05',
   },
 
@@ -1187,7 +1163,7 @@ export const articles: Article[] = [
     time: '17:35',
     section: 'hot',
     image: hero1Image,
-    byline: 'Wafer News Human Interest Desk',
+    byline: 'NPS Human Interest Desk',
     date: '2026-05-04',
   },
   {
@@ -1214,7 +1190,7 @@ export const articles: Article[] = [
     time: '14:12',
     section: 'hot',
     image: k9DogImage,
-    byline: 'Wafer News American News Desk',
+    byline: 'NPS American News Desk',
     date: '2026-05-02',
   },
   /*{
@@ -1227,7 +1203,7 @@ export const articles: Article[] = [
       {
         type: 'image',
         src: mikolasImage,
-        caption: 'Mikolas, the pygmy hippo Neuralink has reportedly selected for its largest animal-testing program so far. (Image: facility photo shared with Wafer News.)',
+        caption: 'Mikolas, the pygmy hippo Neuralink has reportedly selected for its largest animal-testing program so far. (Image: facility photo shared with News Paper Stall.)',
         alt: 'Mikolas the pygmy hippo standing inside an indoor animal enclosure.',
       },
       'Researchers involved in the program are said to be studying how a neural implant performs under conditions that are harder to reproduce in smaller animals: thick tissue, stronger movement, higher body mass, longer monitoring windows and more complex stress responses. The company is also testing whether its latest implant can maintain stable signal quality while the animal moves, feeds, sleeps and reacts naturally to its environment.',
@@ -1241,7 +1217,7 @@ export const articles: Article[] = [
     time: '19:40',
     section: 'hot',
     image: mikolasImage,
-    byline: 'Wafer News Tech Desk',
+    byline: 'NPS Tech Desk',
     date: '2026-05-01',
   },*/
   {
@@ -1275,7 +1251,7 @@ export const articles: Article[] = [
     time: '13:45',
     section: 'hot',
     image: banksyStatueImage,
-    byline: 'Wafer News Culture Desk',
+    byline: 'NPS Culture Desk',
     date: '2026-04-30',
   },
   {
@@ -1300,7 +1276,7 @@ export const articles: Article[] = [
     time: '17:30',
     section: 'hot',
     image: openAiImage,
-    byline: 'Wafer News Tech Desk',
+    byline: 'NPS Tech Desk',
     date: '2026-04-29',
   },
   {
@@ -1312,7 +1288,7 @@ export const articles: Article[] = [
     time: '16:05',
     section: 'hot',
     image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1600&q=80&auto=format&fit=crop',
-    byline: 'Wafer News Crypto Desk',
+    byline: 'NPS Crypto Desk',
     date: '2026-04-27'
   },
   {
@@ -1329,7 +1305,7 @@ export const articles: Article[] = [
     time: '16:45',
     section: 'finance',
     image: 'https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=1600&q=80&auto=format&fit=crop',
-    byline: 'Wafer News Markets Desk'
+    byline: 'NPS Markets Desk'
   },
   {
     id: '98437241',
@@ -1345,7 +1321,7 @@ export const articles: Article[] = [
     time: '15:30',
     section: 'newspaper',
     image: 'https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1600&q=80&auto=format&fit=crop',
-    byline: 'Wafer News Economy Desk'
+    byline: 'NPS Economy Desk'
   },
   {
     id: '98437242',
@@ -1355,12 +1331,12 @@ export const articles: Article[] = [
       'The annual Global Blockchain Summit kicked off this morning with attendance numbers organizers admit even they did not expect. Delegates from more than fifty countries are working through panels covering tokenization, stablecoin policy, and the on-ramp of traditional finance into on-chain rails.',
       'The early flashpoint: an exchange between policy makers from a major emerging market and a panel of US banks over how to harmonize stablecoin rules. The room was civil; the takeaways were anything but. Multiple banks said they expect a deal within the year that would let regulated stablecoins flow more freely across borders.',
       'On the sidelines, a parade of crypto-native startups is using the summit to announce deals, including a handful of agentic-AI partnerships timed to ride the wave from Gemini\'s launch.',
-      'Stay with Wafer News for live updates throughout the day, including the keynote that everybody flew in for.'
+      'Stay with News Paper Stall for live updates throughout the day, including the keynote that everybody flew in for.'
     ],
     category: 'Live',
     time: '14:00',
     section: 'live',
-    byline: 'Wafer News Live Desk'
+    byline: 'NPS Live Desk'
   },
   {
     id: '98437243',
@@ -1376,7 +1352,7 @@ export const articles: Article[] = [
     time: '12:20',
     section: 'opinion',
     image: 'https://images.unsplash.com/photo-1621504450181-5d356f61d307?w=1600&q=80&auto=format&fit=crop',
-    byline: 'Wafer News Editorial'
+    byline: 'NPS Editorial'
   },
   {
     id: '98437244',
@@ -1391,7 +1367,7 @@ export const articles: Article[] = [
     category: 'Tech',
     time: '11:15',
     section: 'tech',
-    byline: 'Wafer News Tech Desk'
+    byline: 'NPS Tech Desk'
   },
   {
     id: '98437245',
@@ -1406,7 +1382,7 @@ export const articles: Article[] = [
     category: 'Live',
     time: '10:00',
     section: 'live',
-    byline: 'Wafer News Live Desk'
+    byline: 'NPS Live Desk'
   },
   {
     id: '98437246',
@@ -1421,7 +1397,7 @@ export const articles: Article[] = [
     category: 'Policy',
     time: '09:30',
     section: 'newspaper',
-    byline: 'Wafer News Policy Desk'
+    byline: 'NPS Policy Desk'
   },
   {
     id: '98437247',
@@ -1436,7 +1412,7 @@ export const articles: Article[] = [
     category: 'Opinion',
     time: '08:45',
     section: 'opinion',
-    byline: 'Wafer News Editorial'
+    byline: 'NPS Editorial'
   },
   {
     id: '98437248',
@@ -1452,7 +1428,7 @@ export const articles: Article[] = [
     time: '08:00',
     section: 'sports',
     image: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1600&q=80&auto=format&fit=crop',
-    byline: 'Wafer News Sports Desk'
+    byline: 'NPS Sports Desk'
   },
   {
     id: '98437249',
@@ -1462,12 +1438,12 @@ export const articles: Article[] = [
       'Industry sources are bracing for a major crypto-sector announcement tomorrow morning, with multiple senior figures hinting on background that the news will reset assumptions for the rest of the year. Speculation is rampant; concrete details are rare.',
       'What is known: at least three large exchanges have rearranged their PR calendars to leave the morning slot clear. Several venture investors quietly pulled term-sheet meetings. And the analyst community has dialed in on a small number of plausible narratives, including a regulatory unlock, a stablecoin-policy joint statement, or a tokenization announcement that names large names.',
       'The official line from those involved: nothing yet. The unofficial line: get to your desk early.',
-      'Wafer News will live-cover the announcement on tomorrow\'s page from before the open. If the rumors are even half right, this will be a long day.'
+      'News Paper Stall will live-cover the announcement on tomorrow\'s page from before the open. If the rumors are even half right, this will be a long day.'
     ],
     category: 'Live',
     time: '07:30',
     section: 'live',
-    byline: 'Wafer News Live Desk'
+    byline: 'NPS Live Desk'
   },
   {
     id: '98437250',
@@ -1482,7 +1458,7 @@ export const articles: Article[] = [
     category: 'Opinion',
     time: '07:00',
     section: 'opinion',
-    byline: 'Wafer News Editorial'
+    byline: 'NPS Editorial'
   },
   {
     id: '98437251',
@@ -1498,7 +1474,7 @@ export const articles: Article[] = [
     time: '16:30',
     section: 'tech',
     image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600&q=80&auto=format&fit=crop',
-    byline: 'Wafer News Tech Desk'
+    byline: 'NPS Tech Desk'
   },
   {
     id: '98437252',
@@ -1513,7 +1489,7 @@ export const articles: Article[] = [
     category: 'Tech',
     time: '14:20',
     section: 'tech',
-    byline: 'Wafer News Tech Desk'
+    byline: 'NPS Tech Desk'
   },
   {
     id: '98437253',
@@ -1529,7 +1505,7 @@ export const articles: Article[] = [
     time: '11:45',
     section: 'tech',
     image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80&auto=format&fit=crop',
-    byline: 'Wafer News Tech Desk'
+    byline: 'NPS Tech Desk'
   },
   {
     id: '98437254',
@@ -1544,7 +1520,7 @@ export const articles: Article[] = [
     category: 'Tech',
     time: '09:00',
     section: 'tech',
-    byline: 'Wafer News Tech Desk'
+    byline: 'NPS Tech Desk'
   },
   {
     id: '98437255',
@@ -1560,7 +1536,7 @@ export const articles: Article[] = [
     time: '15:00',
     section: 'finance',
     image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1600&q=80&auto=format&fit=crop',
-    byline: 'Wafer News Markets Desk'
+    byline: 'NPS Markets Desk'
   },
   {
     id: '98437256',
@@ -1575,7 +1551,7 @@ export const articles: Article[] = [
     category: 'Finance',
     time: '13:30',
     section: 'finance',
-    byline: 'Wafer News Markets Desk'
+    byline: 'NPS Markets Desk'
   },
   {
     id: '98437257',
@@ -1590,7 +1566,7 @@ export const articles: Article[] = [
     category: 'Finance',
     time: '10:15',
     section: 'finance',
-    byline: 'Wafer News Markets Desk'
+    byline: 'NPS Markets Desk'
   },
   {
     id: '98437258',
@@ -1606,7 +1582,7 @@ export const articles: Article[] = [
     time: '08:30',
     section: 'finance',
     image: 'https://images.unsplash.com/photo-1610375461246-83df859d849d?w=1600&q=80&auto=format&fit=crop',
-    byline: 'Wafer News Markets Desk'
+    byline: 'NPS Markets Desk'
   },
   {
     id: '98437259',
@@ -1621,7 +1597,7 @@ export const articles: Article[] = [
     category: 'Culture',
     time: '16:00',
     section: 'culture',
-    byline: 'Wafer News Culture Desk'
+    byline: 'NPS Culture Desk'
   },
   {
     id: '98437260',
@@ -1636,7 +1612,7 @@ export const articles: Article[] = [
     category: 'Culture',
     time: '14:45',
     section: 'culture',
-    byline: 'Wafer News Culture Desk'
+    byline: 'NPS Culture Desk'
   },
   {
     id: '98437261',
@@ -1651,7 +1627,7 @@ export const articles: Article[] = [
     category: 'Culture',
     time: '12:30',
     section: 'culture',
-    byline: 'Wafer News Culture Desk'
+    byline: 'NPS Culture Desk'
   },
   {
     id: '98437262',
@@ -1667,7 +1643,7 @@ export const articles: Article[] = [
     time: '10:00',
     section: 'culture',
     image: 'https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=1600&q=80&auto=format&fit=crop',
-    byline: 'Wafer News Culture Desk'
+    byline: 'NPS Culture Desk'
   },
   {
     id: '98437263',
@@ -1682,7 +1658,7 @@ export const articles: Article[] = [
     category: 'Sports',
     time: '22:00',
     section: 'sports',
-    byline: 'Wafer News Sports Desk'
+    byline: 'NPS Sports Desk'
   },
   {
     id: '98437264',
@@ -1697,7 +1673,7 @@ export const articles: Article[] = [
     category: 'Sports',
     time: '18:30',
     section: 'sports',
-    byline: 'Wafer News Sports Desk'
+    byline: 'NPS Sports Desk'
   },
   {
     id: '98437265',
@@ -1712,7 +1688,7 @@ export const articles: Article[] = [
     category: 'Sports',
     time: '15:45',
     section: 'sports',
-    byline: 'Wafer News Sports Desk'
+    byline: 'NPS Sports Desk'
   },
   {
     id: '98437266',
@@ -1727,7 +1703,7 @@ export const articles: Article[] = [
     category: 'Sports',
     time: '13:00',
     section: 'sports',
-    byline: 'Wafer News Sports Desk'
+    byline: 'NPS Sports Desk'
   },
   {
     id: '98437267',
@@ -1737,7 +1713,7 @@ export const articles: Article[] = [
     category: 'Finance',
     time: '09:45',
     section: 'finance',
-    byline: 'Wafer News Finance Desk',
+    byline: 'NPS Finance Desk',
     date: '2026-04-16'
   },
   // NY-Post-style mix (originally added; now with full bodies)
@@ -1754,7 +1730,7 @@ export const articles: Article[] = [
     category: 'NYC',
     time: '22:18',
     section: 'hot',
-    byline: 'Wafer News Metro Desk'
+    byline: 'NPS Metro Desk'
   },
   {
     id: '98437269',
@@ -1769,7 +1745,7 @@ export const articles: Article[] = [
     category: 'NYC',
     time: '11:30',
     section: 'newspaper',
-    byline: 'Wafer News Metro Desk'
+    byline: 'NPS Metro Desk'
   },
   {
     id: '98437270',
@@ -1785,7 +1761,7 @@ export const articles: Article[] = [
     time: '09:50',
     section: 'newspaper',
     image: 'https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=1600&q=80&auto=format&fit=crop',
-    byline: 'Wafer News Crime Desk'
+    byline: 'NPS Crime Desk'
   },
   {
     id: '98437271',
@@ -1800,7 +1776,7 @@ export const articles: Article[] = [
     category: 'Crime',
     time: '04:12',
     section: 'newspaper',
-    byline: 'Wafer News Crime Desk'
+    byline: 'NPS Crime Desk'
   },
   {
     id: '98437272',
@@ -1815,7 +1791,7 @@ export const articles: Article[] = [
     category: 'Crime',
     time: '15:40',
     section: 'newspaper',
-    byline: 'Wafer News Crime Desk'
+    byline: 'NPS Crime Desk'
   },
   {
     id: '98437273',
@@ -1830,7 +1806,7 @@ export const articles: Article[] = [
     category: 'Entertainment',
     time: '13:05',
     section: 'culture',
-    byline: 'Wafer News Entertainment Desk'
+    byline: 'NPS Entertainment Desk'
   },
   {
     id: '98437274',
@@ -1845,7 +1821,7 @@ export const articles: Article[] = [
     category: 'Entertainment',
     time: '20:15',
     section: 'culture',
-    byline: 'Wafer News Entertainment Desk'
+    byline: 'NPS Entertainment Desk'
   },
   {
     id: '98437275',
@@ -1860,7 +1836,7 @@ export const articles: Article[] = [
     category: 'Entertainment',
     time: '17:22',
     section: 'culture',
-    byline: 'Wafer News Entertainment Desk'
+    byline: 'NPS Entertainment Desk'
   },
   {
     id: '98437276',
@@ -1875,7 +1851,7 @@ export const articles: Article[] = [
     category: 'Entertainment',
     time: '12:00',
     section: 'culture',
-    byline: 'Wafer News Entertainment Desk'
+    byline: 'NPS Entertainment Desk'
   },
   {
     id: '98437277',
@@ -1890,7 +1866,7 @@ export const articles: Article[] = [
     category: 'Entertainment',
     time: '21:48',
     section: 'culture',
-    byline: 'Wafer News Entertainment Desk'
+    byline: 'NPS Entertainment Desk'
   },
   {
     id: '98437278',
@@ -1905,7 +1881,7 @@ export const articles: Article[] = [
     category: 'Entertainment',
     time: '10:30',
     section: 'culture',
-    byline: 'Wafer News Entertainment Desk'
+    byline: 'NPS Entertainment Desk'
   },
   {
     id: '98437279',
@@ -1920,7 +1896,7 @@ export const articles: Article[] = [
     category: 'Sports',
     time: '23:10',
     section: 'sports',
-    byline: 'Wafer News Sports Desk'
+    byline: 'NPS Sports Desk'
   },
   {
     id: '98437280',
@@ -1935,7 +1911,7 @@ export const articles: Article[] = [
     category: 'Sports',
     time: '18:45',
     section: 'sports',
-    byline: 'Wafer News Sports Desk'
+    byline: 'NPS Sports Desk'
   },
   {
     id: '98437281',
@@ -1950,7 +1926,7 @@ export const articles: Article[] = [
     category: 'Sports',
     time: '14:00',
     section: 'sports',
-    byline: 'Wafer News Sports Desk'
+    byline: 'NPS Sports Desk'
   },
   {
     id: '98437282',
@@ -1965,7 +1941,7 @@ export const articles: Article[] = [
     category: 'Tech',
     time: '08:20',
     section: 'tech',
-    byline: 'Wafer News Tech Desk'
+    byline: 'NPS Tech Desk'
   },
   {
     id: '98437283',
@@ -1980,7 +1956,7 @@ export const articles: Article[] = [
     category: 'Tech',
     time: '07:30',
     section: 'tech',
-    byline: 'Wafer News Tech Desk'
+    byline: 'NPS Tech Desk'
   },
   {
     id: '98437284',
@@ -1995,7 +1971,7 @@ export const articles: Article[] = [
     category: 'Politics',
     time: '06:55',
     section: 'newspaper',
-    byline: 'Wafer News Politics Desk'
+    byline: 'NPS Politics Desk'
   },
   {
     id: '98437285',
@@ -2010,7 +1986,7 @@ export const articles: Article[] = [
     category: 'Politics',
     time: '12:25',
     section: 'newspaper',
-    byline: 'Wafer News Politics Desk'
+    byline: 'NPS Politics Desk'
   },
   {
     id: '98437286',
@@ -2026,7 +2002,7 @@ export const articles: Article[] = [
     time: '17:00',
     section: 'finance',
     image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1600&q=80&auto=format&fit=crop',
-    byline: 'Wafer News Markets Desk'
+    byline: 'NPS Markets Desk'
   },
   {
     id: '98437287',
@@ -2042,7 +2018,7 @@ export const articles: Article[] = [
     time: '19:30',
     section: 'opinion',
     image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1600&q=80&auto=format&fit=crop',
-    byline: 'Wafer News Editorial'
+    byline: 'NPS Editorial'
   },
   // Fresh batch (8 new) — to reach 56 articles
   {
@@ -2059,7 +2035,7 @@ export const articles: Article[] = [
     time: '07:45',
     section: 'hot',
     image: 'https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1600&q=80&auto=format&fit=crop',
-    byline: 'Wafer News Metro Desk'
+    byline: 'NPS Metro Desk'
   },
   {
     id: '98437289',
@@ -2075,7 +2051,7 @@ export const articles: Article[] = [
     time: '13:40',
     section: 'finance',
     image: 'https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=1600&q=80&auto=format&fit=crop',
-    byline: 'Wafer News Markets Desk'
+    byline: 'NPS Markets Desk'
   },
   {
     id: '98437290',
@@ -2090,7 +2066,7 @@ export const articles: Article[] = [
     category: 'Tech',
     time: '15:25',
     section: 'tech',
-    byline: 'Wafer News Tech Desk'
+    byline: 'NPS Tech Desk'
   },
   {
     id: '98437291',
@@ -2106,7 +2082,7 @@ export const articles: Article[] = [
     time: '23:25',
     section: 'sports',
     image: 'https://images.unsplash.com/photo-1546519638-68e109498ffc?w=1600&q=80&auto=format&fit=crop',
-    byline: 'Wafer News Sports Desk'
+    byline: 'NPS Sports Desk'
   },
   {
     id: '98437292',
@@ -2121,7 +2097,7 @@ export const articles: Article[] = [
     category: 'Culture',
     time: '11:05',
     section: 'culture',
-    byline: 'Wafer News Culture Desk'
+    byline: 'NPS Culture Desk'
   },
   {
     id: '98437293',
@@ -2136,7 +2112,7 @@ export const articles: Article[] = [
     category: 'Culture',
     time: '14:55',
     section: 'culture',
-    byline: 'Wafer News Real Estate Desk'
+    byline: 'NPS Real Estate Desk'
   },
   {
     id: '98437294',
@@ -2151,7 +2127,7 @@ export const articles: Article[] = [
     category: 'Tech',
     time: '09:15',
     section: 'tech',
-    byline: 'Wafer News Tech Desk'
+    byline: 'NPS Tech Desk'
   },
   {
     id: '98437295',
@@ -2166,7 +2142,7 @@ export const articles: Article[] = [
     category: 'World',
     time: '10:20',
     section: 'newspaper',
-    byline: 'Wafer News World Desk'
+    byline: 'NPS World Desk'
   }
 ]
 

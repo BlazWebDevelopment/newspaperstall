@@ -45,16 +45,14 @@ export default function SectionPage({ section, title, kicker }: SectionPageProps
           {/* Main column */}
           <div className="flex-1 min-w-0">
             {kicker && <div className="section-label mb-1">{kicker}</div>}
-            <h1 className="font-display font-bold text-[26px] md:text-[32px] leading-tight text-[color:var(--text-primary)] pb-2 mb-4 border-b-[3px] border-[color:var(--rule)]">
-              {title}
-            </h1>
-            <p className="text-[11px] font-sans uppercase tracking-[0.06em] text-[color:var(--text-muted)] mb-5">
+            <h1 className="dr-page-title text-[34px] md:text-[46px]">{title}</h1>
+            <p className="font-cond text-[13px] uppercase tracking-[0.08em] text-[color:var(--text-muted)] mt-2 mb-5">
               {count} {count === 1 ? 'story' : 'stories'} filed
             </p>
 
             {count === 0 ? (
               <div className="dr-card p-8 text-center">
-                <h3 className="font-display font-bold text-[18px] text-[color:var(--text-primary)] mb-1">
+                <h3 className="font-display text-[22px] uppercase text-[color:var(--text-primary)] mb-1">
                   Nothing on the wire yet
                 </h3>
                 <p className="text-[color:var(--text-secondary)] text-[13px]">
@@ -65,7 +63,7 @@ export default function SectionPage({ section, title, kicker }: SectionPageProps
               <>
                 {featured && (
                   <Link href={`/article/${getArticleSlug(featured)}`} className="block group">
-                    <article className="pb-5 mb-5 border-b border-[color:var(--border-soft)]">
+                    <article className="pb-5 mb-5 border-b-[3px] border-[color:var(--ink-black)]">
                       {getArticleImageSrc(featured.image) && (
                         <div className="aspect-[16/9] overflow-hidden bg-[color:var(--bg-secondary)] dr-media mb-3">
                           <img
@@ -76,10 +74,10 @@ export default function SectionPage({ section, title, kicker }: SectionPageProps
                         </div>
                       )}
                       <div className="section-label mb-1.5">{featured.category}</div>
-                      <h2 className="headline headline-lg text-[24px] md:text-[30px] mb-2 group-hover:underline">
+                      <h2 className="headline headline-lg text-[28px] md:text-[38px] uppercase mb-2">
                         {featured.title}
                       </h2>
-                      <p className="font-serif text-[15px] text-[color:var(--text-secondary)] leading-[1.55] mb-2.5">
+                      <p className="font-sans font-bold text-[15px] text-[color:var(--text-secondary)] leading-[1.5] mb-2.5">
                         {featured.summary}
                       </p>
                       <ArticleMeta article={featured} />
@@ -96,10 +94,10 @@ export default function SectionPage({ section, title, kicker }: SectionPageProps
                       >
                         <div className="flex-1 min-w-0">
                           <div className="section-label mb-1">{article.category}</div>
-                          <h3 className="headline text-[17px] leading-snug group-hover:underline mb-1.5 line-clamp-3">
+                          <h3 className="headline text-[20px] leading-tight mb-1.5 line-clamp-3">
                             {article.title}
                           </h3>
-                          <p className="font-serif text-[13px] text-[color:var(--text-secondary)] leading-[1.5] line-clamp-2 mb-1.5">
+                          <p className="font-sans text-[13px] text-[color:var(--text-secondary)] leading-[1.5] line-clamp-2 mb-1.5">
                             {article.summary}
                           </p>
                           <ArticleMeta article={article} />
@@ -133,11 +131,9 @@ export default function SectionPage({ section, title, kicker }: SectionPageProps
                         href={`/article/${getArticleSlug(a)}`}
                         className="flex gap-3 py-2.5 first:pt-0 group"
                       >
-                        <span className="font-display font-bold text-[20px] tabular-nums leading-none w-6 shrink-0 text-[color:var(--text-primary)]">
-                          {index + 1}
-                        </span>
+                        <span className="dr-rank text-[28px] w-7 shrink-0">{index + 1}</span>
                         <div className="flex-1 min-w-0">
-                          <h3 className="headline text-[13px] leading-snug group-hover:underline line-clamp-3 mb-1">
+                          <h3 className="headline text-[15px] leading-snug line-clamp-3 mb-1">
                             {a.title}
                           </h3>
                           <ArticleMeta article={a} />

@@ -1,9 +1,9 @@
 import InfoPage from '@/components/InfoPage'
 
 export const metadata = {
-  title: 'Privacy Policy — Wafer News',
+  title: 'Privacy Policy — News Paper Stall',
   description:
-    'Privacy Policy for Wafer News — what we collect, how we use it, and the choices you have.',
+    'Privacy Policy for News Paper Stall — what we collect, how we use it, and the choices you have.',
 }
 
 export default function PrivacyPage() {
@@ -12,11 +12,11 @@ export default function PrivacyPage() {
       title="Privacy Policy"
       kicker="Privacy"
       updated="May 6, 2026"
-      intro="This Privacy Policy explains what information Wafer News collects when you use the site, why we collect it, and the choices you have. We try to keep it short, clear, and free of legalese."
+      intro="This Privacy Policy explains what information News Paper Stall collects when you use the site, why we collect it, and the choices you have. We try to keep it short, clear, and free of legalese."
     >
       <h2>1. Information we collect</h2>
       <p>
-        We collect the minimum information needed to run Wafer News and improve the reading
+        We collect the minimum information needed to run News Paper Stall and improve the reading
         experience:
       </p>
       <ul>
@@ -51,7 +51,7 @@ export default function PrivacyPage() {
 
       <h2>3. Cookies and similar technologies</h2>
       <p>
-        Wafer News uses a small number of essential cookies and the browser&apos;s local
+        News Paper Stall uses a small number of essential cookies and the browser&apos;s local
         storage. These keep you signed in to the newsletter, remember your preferences, and help
         diagnose errors. You can clear them at any time from your browser settings.
       </p>
@@ -83,7 +83,7 @@ export default function PrivacyPage() {
 
       <h2>6. Children</h2>
       <p>
-        Wafer News is not directed to children under 13, and we do not knowingly collect
+        News Paper Stall is not directed to children under 13, and we do not knowingly collect
         personal information from them. If you believe a child has signed up, please contact us
         and we will delete the account.
       </p>

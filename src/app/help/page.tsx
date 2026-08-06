@@ -2,9 +2,9 @@ import InfoPage from '@/components/InfoPage'
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Help & FAQ — Wafer News',
+  title: 'Help & FAQ — News Paper Stall',
   description:
-    'Help center for Wafer News — answers to the questions readers ask most often.',
+    'Help center for News Paper Stall — answers to the questions readers ask most often.',
 }
 
 const faqs: { q: string; a: React.ReactNode }[] = [
@@ -54,7 +54,7 @@ const faqs: { q: string; a: React.ReactNode }[] = [
     q: 'Why isn’t my browser remembering that I’m subscribed?',
     a: (
       <p>
-        Wafer News stores your subscription preference in your browser&apos;s local storage. If
+        News Paper Stall stores your subscription preference in your browser&apos;s local storage. If
         you use private/incognito mode, clear cookies regularly, or switch devices, you may see
         the subscription form again — but you remain subscribed on our end. Just submit the same
         email; it won&apos;t create duplicates.
@@ -103,7 +103,7 @@ const faqs: { q: string; a: React.ReactNode }[] = [
     ),
   },
   {
-    q: 'How does Wafer News protect my data?',
+    q: 'How does News Paper Stall protect my data?',
     a: (
       <p>
         We collect the minimum data needed and never sell personal information. See our{' '}

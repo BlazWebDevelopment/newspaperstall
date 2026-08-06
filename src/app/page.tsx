@@ -19,7 +19,7 @@ const TICKER_HEADLINES = [
   'Gemini wires AI agents into live crypto trading',
   'Apple unveils Vision Pro 2',
   'Fed cuts rates 50 basis points',
-].join('  ·  ')
+].join('  •  ')
 
 export default function Home() {
   const featuredArticle = articles[0]
@@ -40,9 +40,7 @@ export default function Home() {
           <li key={a.id}>
             <Link href={`/article/${getArticleSlug(a)}`} className="flex gap-3 py-2.5 first:pt-0 group">
               <div className="flex-1 min-w-0">
-                <h3 className="headline text-[14px] line-clamp-3 group-hover:underline mb-1">
-                  {a.title}
-                </h3>
+                <h3 className="headline text-[15px] line-clamp-3 mb-1">{a.title}</h3>
                 <ArticleMeta article={a} />
               </div>
               {getArticleImageSrc(a.image) ? (
@@ -65,15 +63,15 @@ export default function Home() {
     <div className="min-h-screen">
       <Header />
 
-      {/* Breaking ticker */}
+      {/* Breaking rail */}
       <div className="dr-ticker-rail">
         <div className="max-w-[1200px] mx-auto px-4 md:px-6 py-1.5 flex items-center gap-3 overflow-hidden">
-          <span className="inline-flex items-center gap-1.5 text-[10px] font-bold font-sans uppercase tracking-[0.12em] text-white shrink-0 px-2 py-1 dr-live-pill bg-[color:var(--text-primary)]">
-            <span className="w-1.5 h-1.5 bg-white live-dot" />
+          <span className="dr-flag dr-flag-black shrink-0 text-[13px]">
+            <span className="w-1.5 h-1.5 bg-[color:var(--red)] live-dot" />
             Breaking
           </span>
           <div className="overflow-hidden flex-1">
-            <div className="animate-ticker text-[12px] font-sans text-[color:var(--text-secondary)]">
+            <div className="animate-ticker font-cond text-[14px] font-medium uppercase tracking-[0.04em] text-white">
               <span className="pr-10">{TICKER_HEADLINES}</span>
               <span className="pr-10" aria-hidden="true">
                 {TICKER_HEADLINES}
@@ -87,26 +85,29 @@ export default function Home() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8">
           {/* Lead column */}
           <div className="lg:col-span-8 min-w-0">
-            <SectionHeading title="Top Stories" />
-
-            {/* Lead story */}
+            {/* Splash story */}
             <Link href={`/article/${getArticleSlug(featuredArticle)}`} className="block group">
               <article>
-                <div className="aspect-[16/9] overflow-hidden bg-[color:var(--bg-secondary)] dr-media">
-                  <img
-                    src={getArticleImageSrc(featuredArticle.image) ?? FALLBACK_HERO_IMAGE}
-                    alt=""
-                    className={`w-full h-full ${
-                      isLeopoldFeatured ? 'object-contain' : 'object-cover'
-                    }`}
-                  />
+                <div className="dr-hero-frame">
+                  <div className="aspect-[16/11] sm:aspect-[16/10] md:aspect-[2/1]">
+                    <img
+                      src={getArticleImageSrc(featuredArticle.image) ?? FALLBACK_HERO_IMAGE}
+                      alt=""
+                      className={`w-full h-full ${
+                        isLeopoldFeatured ? 'object-contain' : 'object-cover'
+                      }`}
+                    />
+                  </div>
+                  <div className="dr-hero-scrim" aria-hidden="true" />
+                  <div className="absolute inset-x-0 bottom-0 p-4 md:p-6">
+                    <span className="dr-flag mb-2 md:mb-3">{featuredArticle.category}</span>
+                    <h1 className="dr-splash text-white text-[30px] sm:text-[40px] md:text-[52px] lg:text-[60px] line-clamp-4 group-hover:underline decoration-[color:var(--red)] decoration-[5px] underline-offset-[6px]">
+                      {featuredArticle.title}
+                    </h1>
+                  </div>
                 </div>
-                <div className="pt-3">
-                  <div className="section-label mb-1.5">{featuredArticle.category}</div>
-                  <h1 className="headline headline-lg text-[26px] md:text-[34px] mb-2 group-hover:underline">
-                    {featuredArticle.title}
-                  </h1>
-                  <p className="font-serif text-[15px] text-[color:var(--text-secondary)] leading-[1.55] mb-2.5">
+                <div className="pt-3 pb-5 border-b-[3px] border-[color:var(--ink-black)]">
+                  <p className="font-sans font-bold text-[16px] md:text-[17px] text-[color:var(--text-secondary)] leading-[1.45] mb-2">
                     {featuredArticle.summary}
                   </p>
                   <ArticleMeta article={featuredArticle} />
@@ -115,7 +116,7 @@ export default function Home() {
             </Link>
 
             {/* Two-up */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-6 pt-6 border-t border-[color:var(--border-soft)]">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-5">
               {subFeatured.map((a) => (
                 <Link key={a.id} href={`/article/${getArticleSlug(a)}`} className="block group">
                   <article className="h-full flex flex-col">
@@ -128,10 +129,8 @@ export default function Home() {
                     </div>
                     <div className="pt-2.5 flex flex-col flex-1">
                       <div className="section-label mb-1">{a.category}</div>
-                      <h3 className="headline text-[17px] mb-1.5 group-hover:underline line-clamp-3">
-                        {a.title}
-                      </h3>
-                      <p className="font-serif text-[13px] text-[color:var(--text-secondary)] leading-[1.5] line-clamp-2 mb-2">
+                      <h3 className="headline text-[21px] mb-1.5 line-clamp-3">{a.title}</h3>
+                      <p className="font-sans text-[13px] text-[color:var(--text-secondary)] leading-[1.5] line-clamp-2 mb-2">
                         {a.summary}
                       </p>
                       <div className="mt-auto">
@@ -144,7 +143,7 @@ export default function Home() {
             </div>
 
             {/* More headlines */}
-            <section className="mt-6 pt-6 border-t border-[color:var(--border-soft)]">
+            <section className="mt-7">
               <SectionHeading title="More Headlines" href="/hot" />
               <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-7">
                 {topGrid.map((article, idx) => (
@@ -157,9 +156,7 @@ export default function Home() {
                   >
                     <div className="flex-1 min-w-0">
                       <div className="section-label mb-1">{article.category}</div>
-                      <h3 className="headline text-[14px] line-clamp-3 group-hover:underline mb-1">
-                        {article.title}
-                      </h3>
+                      <h3 className="headline text-[16px] line-clamp-3 mb-1">{article.title}</h3>
                       <ArticleMeta article={article} />
                     </div>
                     {getArticleImageSrc(article.image) ? (
@@ -177,7 +174,7 @@ export default function Home() {
             </section>
 
             {/* Section feeds */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6 pt-6 border-t border-[color:var(--border-soft)]">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-7 mt-7 pt-7 border-t-[3px] border-[color:var(--ink-black)]">
               {renderModule('Business', '/finance', businessFeed)}
               {renderModule('Technology', '/tech', techFeed)}
               {renderModule('Sports', '/sports', sportsFeed)}
@@ -189,7 +186,7 @@ export default function Home() {
           <aside className="lg:col-span-4 lg:border-l lg:border-[color:var(--border-soft)] lg:pl-7">
             <div className="space-y-7">
               <section>
-                <SectionHeading title="Most Read · 24h" />
+                <SectionHeading title="Most Read" aside="Last 24 hours" />
                 <ol className="divide-y divide-[color:var(--border-soft)]">
                   {articles.slice(0, 6).map((article, index) => (
                     <li key={article.id}>
@@ -197,11 +194,9 @@ export default function Home() {
                         href={`/article/${getArticleSlug(article)}`}
                         className="flex gap-3 py-2.5 first:pt-0 group"
                       >
-                        <span className="font-display font-bold text-[20px] leading-none w-6 shrink-0 tabular-nums text-[color:var(--text-primary)]">
-                          {index + 1}
-                        </span>
+                        <span className="dr-rank text-[28px] w-7 shrink-0">{index + 1}</span>
                         <div className="flex-1 min-w-0">
-                          <h3 className="headline text-[13px] leading-snug group-hover:underline line-clamp-3 mb-1">
+                          <h3 className="headline text-[15px] leading-snug line-clamp-3 mb-1">
                             {article.title}
                           </h3>
                           <ArticleMeta article={article} />
@@ -212,15 +207,12 @@ export default function Home() {
                 </ol>
               </section>
 
-              <section
-                id="newsletter"
-                className="dr-card dr-newsletter-glow p-4 scroll-mt-6"
-              >
-                <h2 className="font-sans font-bold text-[13px] uppercase tracking-[0.1em] text-[color:var(--text-primary)] mb-1.5">
+              <section id="newsletter" className="dr-card dr-newsletter-glow p-4 scroll-mt-6">
+                <h2 className="font-cond text-[19px] font-semibold uppercase tracking-[0.04em] text-[color:var(--text-primary)] mb-1">
                   Morning Briefing
                 </h2>
                 <p className="text-[13px] font-sans text-[color:var(--text-secondary)] mb-3 leading-relaxed">
-                  Five sharp headlines, every weekday morning. Free.
+                  Five loud headlines, every weekday morning. Free.
                 </p>
                 <NewsletterForm variant="stacked" buttonLabel="Subscribe" />
               </section>
@@ -234,7 +226,7 @@ export default function Home() {
                         href={`/article/${getArticleSlug(article)}`}
                         className="block py-2.5 first:pt-0 group"
                       >
-                        <h3 className="headline text-[13px] leading-snug group-hover:underline line-clamp-2 mb-1">
+                        <h3 className="headline text-[15px] leading-snug line-clamp-2 mb-1">
                           {article.title}
                         </h3>
                         <ArticleMeta article={article} />

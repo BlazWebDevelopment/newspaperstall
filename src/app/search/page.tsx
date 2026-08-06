@@ -35,10 +35,10 @@ function SearchResults() {
         <div className="flex flex-col lg:flex-row gap-6 lg:gap-8">
           <div className="flex-1 min-w-0">
             <div className="section-label mb-1">Search</div>
-            <h1 className="font-display font-bold text-[24px] md:text-[30px] leading-tight text-[color:var(--text-primary)] pb-2 border-b-[3px] border-[color:var(--rule)]">
+            <h1 className="dr-page-title text-[28px] md:text-[38px]">
               Results for &ldquo;{query}&rdquo;
             </h1>
-            <p className="text-[11px] font-sans uppercase tracking-[0.06em] text-[color:var(--text-muted)] mt-2 mb-5">
+            <p className="font-cond text-[13px] uppercase tracking-[0.08em] text-[color:var(--text-muted)] mt-2 mb-5">
               {results.length} {results.length === 1 ? 'result' : 'results'}
             </p>
 
@@ -52,10 +52,10 @@ function SearchResults() {
                     >
                       <div className="flex-1 min-w-0">
                         <div className="section-label mb-1">{article.category}</div>
-                        <h3 className="headline text-[17px] leading-snug group-hover:underline mb-1.5 line-clamp-3">
+                        <h3 className="headline text-[20px] leading-tight mb-1.5 line-clamp-3">
                           {article.title}
                         </h3>
-                        <p className="font-serif text-[13px] text-[color:var(--text-secondary)] leading-[1.5] line-clamp-2 mb-1.5">
+                        <p className="font-sans text-[13px] text-[color:var(--text-secondary)] leading-[1.5] line-clamp-2 mb-1.5">
                           {article.summary}
                         </p>
                         <ArticleMeta article={article} />
@@ -75,7 +75,7 @@ function SearchResults() {
               </ul>
             ) : (
               <div className="dr-card p-8 text-center">
-                <h3 className="font-display font-bold text-[18px] text-[color:var(--text-primary)] mb-1">
+                <h3 className="font-display text-[22px] uppercase text-[color:var(--text-primary)] mb-1">
                   No results
                 </h3>
                 <p className="text-[color:var(--text-secondary)] text-[13px]">
@@ -113,11 +113,9 @@ function SearchResults() {
                         href={`/article/${getArticleSlug(article)}`}
                         className="flex gap-3 py-2.5 first:pt-0 group"
                       >
-                        <span className="font-display font-bold text-[20px] tabular-nums leading-none w-6 shrink-0 text-[color:var(--text-primary)]">
-                          {index + 1}
-                        </span>
+                        <span className="dr-rank text-[28px] w-7 shrink-0">{index + 1}</span>
                         <div className="flex-1 min-w-0">
-                          <h3 className="headline text-[13px] leading-snug group-hover:underline line-clamp-3 mb-1">
+                          <h3 className="headline text-[15px] leading-snug line-clamp-3 mb-1">
                             {article.title}
                           </h3>
                           <ArticleMeta article={article} />

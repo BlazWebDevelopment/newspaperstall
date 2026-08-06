@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import { SITE_DESCRIPTION, SITE_NAME } from '@/lib/brand'
+import { SITE_DESCRIPTION, SITE_NAME, SITE_SHORT_NAME } from '@/lib/brand'
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL
   ? new URL(process.env.NEXT_PUBLIC_SITE_URL)
   : new URL('http://localhost:3000')
 
-const pageTitle = `${SITE_NAME} — Top stories, world, business, tech, sports & culture`
+const pageTitle = `${SITE_NAME} (${SITE_SHORT_NAME}) — Breaking news, politics, business, tech, sports & culture`
 
 export const metadata: Metadata = {
   title: pageTitle,
@@ -14,8 +14,11 @@ export const metadata: Metadata = {
   metadataBase: siteUrl,
   applicationName: SITE_NAME,
   keywords: [
-    'Wafer News',
-    'wafer news',
+    'News Paper Stall',
+    'news paper stall',
+    'NPS',
+    'NPS news',
+    'breaking news',
     'daily news',
     'top stories',
     'world news',
@@ -63,6 +66,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,400..900&display=swap"
+        />
+        <meta name="theme-color" content="#d81f26" />
+      </head>
       <body>{children}</body>
     </html>
   )

@@ -9,16 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        wafer: {
-          ink: '#111111',
-          rule: '#111111',
-          navy: '#14396b',
+        nps: {
+          red: '#d81f26',
+          'red-dark': '#a20f16',
+          ink: '#000000',
+          panel: '#111111',
           paper: '#ffffff',
-          newsprint: '#f6f6f6',
+          newsprint: '#f2f2f2',
         },
       },
       fontFamily: {
         sans: ['var(--font-sans)', 'Arial', 'Helvetica', 'sans-serif'],
+        cond: ['var(--font-cond)', 'Oswald', 'Arial Narrow', 'sans-serif'],
         display: ['var(--font-display)', 'Georgia', 'Times New Roman', 'serif'],
         serif: ['var(--font-serif)', 'Georgia', 'Times New Roman', 'serif'],
       },

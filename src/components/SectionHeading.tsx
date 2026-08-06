@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-/** Uppercase label sitting on a heavy rule — the standard section marker. */
+/** Black flag sitting on a heavy rule — the standard tabloid section marker. */
 export default function SectionHeading({
   title,
   href,
@@ -13,19 +13,14 @@ export default function SectionHeading({
   aside?: string
 }) {
   return (
-    <div className="dr-section-accent flex items-baseline justify-between gap-3 mb-3">
-      <h2 className="font-sans font-bold text-[13px] uppercase tracking-[0.1em] text-[color:var(--text-primary)]">
-        {title}
-      </h2>
+    <div className="dr-section-accent flex items-stretch justify-between gap-3 mb-3">
+      <h2 className="dr-section-flag">{title}</h2>
       {href ? (
-        <Link
-          href={href}
-          className="shrink-0 text-[11px] font-sans uppercase tracking-[0.06em] text-[color:var(--accent)] hover:underline"
-        >
-          {linkLabel}
+        <Link href={href} className="dr-more-link shrink-0 self-center">
+          {linkLabel} &rsaquo;
         </Link>
       ) : aside ? (
-        <span className="shrink-0 text-[11px] font-sans text-[color:var(--text-muted)]">
+        <span className="shrink-0 self-center font-cond text-[12px] uppercase tracking-[0.06em] text-[color:var(--text-muted)]">
           {aside}
         </span>
       ) : null}

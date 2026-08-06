@@ -7,7 +7,7 @@ import SectionHeading from '@/components/SectionHeading'
 import ArticleMeta from '@/components/ArticleMeta'
 import ShareBar from '@/components/ShareBar'
 import { getArticleBySlug, getArticleSlug, getArticleImageSrc, articles } from '@/data/articles'
-import { SITE_NAME } from '@/lib/brand'
+import { SITE_NAME, SITE_SHORT_NAME } from '@/lib/brand'
 import Link from 'next/link'
 
 const FALLBACK_HERO_IMAGE =
@@ -32,24 +32,26 @@ interface ArticlePageProps {
 
 function Headline({ children }: { children: React.ReactNode }) {
   return (
-    <h1 className="headline headline-lg text-[26px] md:text-[36px] mb-3 leading-tight">
-      {children}
-    </h1>
+    <h1 className="headline headline-lg uppercase text-[30px] md:text-[46px] mb-3">{children}</h1>
   )
 }
 
 function Byline({ author, facts }: { author: string; facts: string[] }) {
   return (
-    <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-[12px] font-sans text-[color:var(--text-muted)] mb-5 pb-3 border-b border-[color:var(--border-soft)]">
+    <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-[12px] font-sans text-[color:var(--text-muted)] mb-5 pb-3 border-b-[3px] border-[color:var(--ink-black)]">
       <span className="flex items-center gap-2">
-        <span className="dr-avatar-cut bg-[color:var(--text-primary)] flex items-center justify-center text-[9px] font-bold font-sans text-white">
-          W
+        <span className="dr-avatar-cut inline-flex items-center justify-center text-[10px] uppercase leading-[1.5]">
+          {SITE_SHORT_NAME}
         </span>
-        <span className="font-bold text-[color:var(--text-primary)]">By {author}</span>
+        <span className="font-cond text-[15px] font-semibold uppercase tracking-[0.03em] text-[color:var(--text-primary)]">
+          By {author}
+        </span>
       </span>
       {facts.map((fact) => (
         <span key={fact} className="flex items-center gap-2">
-          <span aria-hidden="true">|</span>
+          <span aria-hidden="true" className="text-[color:var(--border-strong)]">
+            /
+          </span>
           <span>{fact}</span>
         </span>
       ))}
@@ -59,7 +61,7 @@ function Byline({ author, facts }: { author: string; facts: string[] }) {
 
 function Caption({ children }: { children: React.ReactNode }) {
   return (
-    <figcaption className="text-[11px] font-sans text-[color:var(--text-muted)] mt-1.5 pt-1.5 border-t border-[color:var(--border-subtle)]">
+    <figcaption className="text-[11px] font-sans text-[color:var(--text-muted)] mt-1.5 pt-1.5 border-t-2 border-[color:var(--red)]">
       {children}
     </figcaption>
   )
@@ -74,9 +76,9 @@ function InsetPanel({
   children: React.ReactNode
 }) {
   return (
-    <div className="bg-[color:var(--bg-surface)] border border-[color:var(--border-soft)] border-l-4 border-l-[color:var(--text-primary)] p-4 my-5 dr-pull-end">
+    <div className="bg-[color:var(--bg-surface)] border-y border-r border-[color:var(--border-soft)] border-l-[5px] border-l-[color:var(--red)] p-4 my-5 dr-pull-end">
       {heading && (
-        <h3 className="font-sans font-bold text-[12px] uppercase tracking-[0.08em] text-[color:var(--text-primary)] mb-2">
+        <h3 className="font-cond text-[16px] font-semibold uppercase tracking-[0.05em] text-[color:var(--text-primary)] mb-2">
           {heading}
         </h3>
       )}
@@ -97,7 +99,7 @@ function SourceLine({ children }: { children: React.ReactNode }) {
 
 function Tags({ tags }: { tags: string[] }) {
   return (
-    <div className="mt-6 pt-4 border-t border-[color:var(--border-soft)]">
+    <div className="mt-6 pt-4 border-t-[3px] border-[color:var(--ink-black)]">
       <div className="flex items-center gap-1.5 flex-wrap">
         <span className="section-label mr-1">Tags</span>
         {tags.map((tag) => (
@@ -137,7 +139,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
                     <span className="dr-chip dr-chip-active">Crypto</span>
                     <span className="dr-chip">AI Agent</span>
                     <span className="dr-chip">Gemini</span>
-                    <span className="inline-flex items-center gap-1.5 px-2 py-1 dr-live-pill bg-[color:var(--text-primary)] text-white text-[10px] font-sans font-bold uppercase tracking-[0.08em]">
+                    <span className="dr-flag dr-live-pill">
                       <span className="w-1.5 h-1.5 bg-white live-dot" />
                       Live · Apr 27, 2026
                     </span>
@@ -149,7 +151,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
                   </Headline>
 
                   <Byline
-                    author="Wafer News Crypto Desk"
+                    author="NPS Crypto Desk"
                     facts={['Apr 27, 2026 · 16:05', '1,284 reads', '92 comments']}
                   />
 
@@ -167,7 +169,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
                   </figure>
 
                   <div className="article-content">
-                    <p className="text-[18px] font-bold text-[color:var(--text-primary)]">
+                    <p className="article-dek">
                       Gemini today rolled out &ldquo;Agentic Trading,&rdquo; a new product that
                       wires AI models like ChatGPT and Claude directly into your crypto account.
                       Going live on April 27, 2026, the feature uses Anthropic&apos;s open Model
@@ -293,7 +295,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
 
                     <SourceLine>
                       <strong className="text-[color:var(--text-primary)]">Reporter:</strong>{' '}
-                      Wafer News Crypto Desk |{' '}
+                      NPS Crypto Desk |{' '}
                       <strong className="text-[color:var(--text-primary)]">Editor:</strong> Marcus
                       Chen |{' '}
                       <strong className="text-[color:var(--text-primary)]">Source:</strong>{' '}
@@ -328,10 +330,10 @@ export default function ArticlePage({ params }: ArticlePageProps) {
                     50+
                   </Headline>
 
-                  <Byline author="Wafer News Finance Desk" facts={['Apr 16, 2026 · 09:45']} />
+                  <Byline author="NPS Finance Desk" facts={['Apr 16, 2026 · 09:45']} />
 
                   <div className="article-content">
-                    <p className="text-[18px] font-bold text-[color:var(--text-primary)]">
+                    <p className="article-dek">
                       GENZ asks a sharp question: if digital natives are reshaping spending and
                       risk habits, why not build an ETF around them? The GENZ idea targets Gen Z
                       and younger millennials who live their financial lives online, across
@@ -401,7 +403,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
 
                     <SourceLine>
                       <strong className="text-[color:var(--text-primary)]">Reporter:</strong>{' '}
-                      Wafer News Finance Desk |{' '}
+                      NPS Finance Desk |{' '}
                       <strong className="text-[color:var(--text-primary)]">Source:</strong> GENZ
                       theme inspiration (fictional BOOMER rewrite)
                     </SourceLine>
@@ -421,7 +423,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
                   <Headline>{article.title}</Headline>
 
                   <Byline
-                    author={article.byline ?? 'Wafer News Staff'}
+                    author={article.byline ?? 'NPS Staff'}
                     facts={[
                       `${article.date ?? '2026-04-29'} · ${article.time}`,
                       `${((parseInt(article.id.slice(-4), 10) * 7) % 3500) + 320} reads`,
@@ -435,12 +437,12 @@ export default function ArticlePage({ params }: ArticlePageProps) {
                         alt={article.title}
                         className="mx-auto h-auto w-auto max-w-full max-h-[440px] dr-media object-contain"
                       />
-                      <Caption>{article.title} — Wafer News file image.</Caption>
+                      <Caption>{article.title} — {SITE_NAME} file image.</Caption>
                     </figure>
                   ) : null}
 
                   <div className="article-content">
-                    <p className="text-[18px] font-bold text-[color:var(--text-primary)]">
+                    <p className="article-dek">
                       {article.summary}
                     </p>
 
@@ -498,7 +500,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
 
                     <SourceLine>
                       <strong className="text-[color:var(--text-primary)]">Reporter:</strong>{' '}
-                      {article.byline ?? 'Wafer News Staff'} |{' '}
+                      {article.byline ?? 'NPS Staff'} |{' '}
                       <strong className="text-[color:var(--text-primary)]">Section:</strong>{' '}
                       {article.section.toUpperCase()} |{' '}
                       <strong className="text-[color:var(--text-primary)]">Source:</strong>{' '}
@@ -510,7 +512,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
                     tags={[
                       `#${article.category.replace(/\s+/g, '')}`,
                       `#${article.section}`,
-                      '#WaferNews',
+                      '#NewsPaperStall',
                     ]}
                   />
                 </>
@@ -553,9 +555,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
                       >
                         <div className="flex-1 min-w-0">
                           <div className="section-label mb-1">{a.category}</div>
-                          <h3 className="headline text-[14px] line-clamp-3 group-hover:underline mb-1">
-                            {a.title}
-                          </h3>
+                          <h3 className="headline text-[16px] line-clamp-3 mb-1">{a.title}</h3>
                           <ArticleMeta article={a} />
                         </div>
                         {getArticleImageSrc(a.image) ? (
@@ -586,11 +586,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
                         href={`/article/${getArticleSlug(a)}`}
                         className="flex gap-3 py-2.5 first:pt-0 group"
                       >
-                        <span className="font-display font-bold text-[20px] tabular-nums leading-none w-6 shrink-0 text-[color:var(--text-primary)]">
-                          {index + 1}
-                        </span>
+                        <span className="dr-rank text-[28px] w-7 shrink-0">{index + 1}</span>
                         <div className="flex-1 min-w-0">
-                          <h3 className="headline text-[13px] leading-snug group-hover:underline line-clamp-3 mb-1">
+                          <h3 className="headline text-[15px] leading-snug line-clamp-3 mb-1">
                             {a.title}
                           </h3>
                           <ArticleMeta article={a} />

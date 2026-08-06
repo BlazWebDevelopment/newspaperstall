@@ -105,8 +105,8 @@ export default function ShareBar({ title }: ShareBarProps) {
           title={b.label}
           className={`w-9 h-9 border dr-icon-btn flex items-center justify-center ${
             b.key === 'copy' && copied
-              ? 'bg-[color:var(--text-primary)] border-[color:var(--text-primary)] text-white'
-              : 'bg-[color:var(--bg-base)] border-[color:var(--border-strong)] text-[color:var(--text-secondary)] hover:bg-[color:var(--bg-surface-2)] hover:border-[color:var(--text-muted)] hover:text-[color:var(--text-primary)]'
+              ? 'bg-[color:var(--red)] border-[color:var(--red)] text-white'
+              : 'bg-[color:var(--ink-black)] border-[color:var(--ink-black)] text-white hover:bg-[color:var(--red)] hover:border-[color:var(--red)]'
           }`}
         >
           {b.icon}

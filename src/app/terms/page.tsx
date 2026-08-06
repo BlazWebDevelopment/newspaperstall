@@ -1,9 +1,9 @@
 import InfoPage from '@/components/InfoPage'
 
 export const metadata = {
-  title: 'Terms of Service — Wafer News',
+  title: 'Terms of Service — News Paper Stall',
   description:
-    'Terms of Service for Wafer News — the rules of the road for using our site and newsletter.',
+    'Terms of Service for News Paper Stall — the rules of the road for using our site and newsletter.',
 }
 
 export default function TermsPage() {
@@ -12,23 +12,23 @@ export default function TermsPage() {
       title="Terms of Service"
       kicker="Terms"
       updated="May 6, 2026"
-      intro="These Terms of Service govern your use of Wafer News. By using the site or subscribing to the newsletter, you agree to these terms. If you don’t agree, please don’t use the service."
+      intro="These Terms of Service govern your use of News Paper Stall. By using the site or subscribing to the newsletter, you agree to these terms. If you don’t agree, please don’t use the service."
     >
       <h2>1. Use of the service</h2>
       <p>
-        Wafer News gives you a personal, non-commercial license to read articles and use the
+        News Paper Stall gives you a personal, non-commercial license to read articles and use the
         features of the site. You agree not to:
       </p>
       <ul>
         <li>Scrape, mass-download, or republish our content without permission.</li>
         <li>Attempt to disrupt, attack, or reverse-engineer the service.</li>
-        <li>Use Wafer News to harass others or distribute illegal content.</li>
-        <li>Impersonate Wafer News staff or misrepresent your affiliation with us.</li>
+        <li>Use News Paper Stall to harass others or distribute illegal content.</li>
+        <li>Impersonate News Paper Stall staff or misrepresent your affiliation with us.</li>
       </ul>
 
       <h2>2. Content and intellectual property</h2>
       <p>
-        Articles, headlines, design, code and brand marks on Wafer News are protected by
+        Articles, headlines, design, code and brand marks on News Paper Stall are protected by
         copyright and trademark laws. You may share short excerpts and direct links freely. For
         any other reuse — including syndication, training data, and commercial reproduction — you
         must obtain written permission first.
@@ -40,7 +40,7 @@ export default function TermsPage() {
 
       <h2>3. Newsletter</h2>
       <p>
-        The Wafer News newsletter is provided as-is. We do our best to keep it timely and
+        The News Paper Stall newsletter is provided as-is. We do our best to keep it timely and
         accurate, but we cannot guarantee delivery, formatting in every email client, or that
         every story will reach you. You can unsubscribe at any time using the link in any email
         or by clearing your subscription on the site.
@@ -48,21 +48,21 @@ export default function TermsPage() {
 
       <h2>4. No professional advice</h2>
       <p>
-        Wafer News is a news product. Nothing on the site is intended as financial, legal,
+        News Paper Stall is a news product. Nothing on the site is intended as financial, legal,
         medical, or other professional advice. Always do your own research and consult qualified
         professionals before making decisions.
       </p>
 
       <h2>5. Third-party links</h2>
       <p>
-        We sometimes link to third-party sites, services and embeds. Wafer News is not
+        We sometimes link to third-party sites, services and embeds. News Paper Stall is not
         responsible for the content, accuracy, or privacy practices of those external services.
       </p>
 
       <h2>6. Disclaimers and liability</h2>
       <p>
-        Wafer News is provided &ldquo;as is&rdquo; without warranties of any kind, express or
-        implied. To the fullest extent permitted by law, Wafer News is not liable for any
+        News Paper Stall is provided &ldquo;as is&rdquo; without warranties of any kind, express or
+        implied. To the fullest extent permitted by law, News Paper Stall is not liable for any
         indirect, incidental, special, consequential or punitive damages arising out of your use
         of the service.
       </p>

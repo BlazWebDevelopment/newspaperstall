@@ -1,8 +1,14 @@
-<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Wafer News">
-  <rect width="512" height="512" fill="#111111"/>
-  <rect x="18" y="18" width="476" height="476" fill="none" stroke="#ffffff" stroke-width="10"/>
-  <!-- W -->
-  <path d="M78 168 L120 344 L164 244 L208 344 L250 168" stroke="#ffffff" stroke-width="40" stroke-linecap="butt" stroke-linejoin="round" fill="none"/>
-  <!-- N -->
-  <path d="M290 344 L290 168 L430 344 L430 168" stroke="#ffffff" stroke-width="40" stroke-linecap="butt" stroke-linejoin="round" fill="none"/>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="News Paper Stall">
+  <rect width="512" height="512" fill="#000000"/>
+  <!-- Stall awning bands -->
+  <rect x="0" y="0" width="512" height="96" fill="#d81f26"/>
+  <rect x="0" y="416" width="512" height="96" fill="#d81f26"/>
+  <g stroke="#ffffff" stroke-width="34" stroke-linecap="butt" stroke-linejoin="round" fill="none">
+    <!-- N -->
+    <path d="M58 344 L58 168 L142 344 L142 168"/>
+    <!-- P -->
+    <path d="M214 344 L214 168 L250 168 A44 44 0 0 1 250 256 L214 256"/>
+    <!-- S -->
+    <path d="M448.1 234 A44 44 0 1 0 410 256 A44 44 0 1 1 371.9 322"/>
+  </g>
 </svg>

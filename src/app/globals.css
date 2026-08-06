@@ -5,51 +5,62 @@
 :root {
   color-scheme: light;
 
-  --foreground-rgb: 17, 17, 17;
+  --foreground-rgb: 16, 16, 16;
 
-  /* Wafer News — plain white newsprint palette */
+  /* News Paper Stall — tabloid palette: white paper, black furniture, one loud red. */
   --bg-base: #ffffff;
   --bg-primary: #ffffff;
-  --bg-secondary: #eeeeee;
-  --bg-surface: #f6f6f6;
-  --bg-surface-2: #ededed;
-  --bg-elevated: #f4f4f4;
+  --bg-secondary: #e8e8e8;
+  --bg-surface: #f2f2f2;
+  --bg-surface-2: #e4e4e4;
+  --bg-elevated: #f7f7f7;
 
-  --border-subtle: #e6e6e6;
-  --border-soft: #dddddd;
-  --border-strong: #bbbbbb;
-  --border-glow: #767676;
+  --ink-black: #000000;
+  --ink-panel: #111111;
+  --ink-panel-2: #1c1c1c;
 
-  /* Square corners everywhere. */
+  --border-subtle: #e4e4e4;
+  --border-soft: #d5d5d5;
+  --border-strong: #9b9b9b;
+  --border-glow: #6d6d6d;
+
+  /* Square corners everywhere — this is a printed page, not an app. */
   --r-ticket-a: 0;
   --r-ticket-b: 0;
   --r-card-a: 0;
   --r-card-b: 0;
 
-  --text-primary: #111111;
-  --text-secondary: #444444;
-  --text-muted: #767676;
+  --text-primary: #101010;
+  --text-secondary: #3c3c3c;
+  --text-muted: #6f6f6f;
+  --text-inverse: #ffffff;
+  --text-on-dark-muted: #b4b4b4;
 
-  /* Single restrained ink-navy accent, used for links and rules. */
-  --accent: #14396b;
-  --accent-hover: #0d2a52;
-  --accent-subtle: #eef1f6;
-  --accent-border: #c3ccda;
+  /* Tabloid red carries every kicker, flag and call to action. */
+  --red: #d81f26;
+  --red-dark: #a20f16;
+  --red-soft: #fdecec;
+  --red-border: #f1babc;
+
+  --accent: var(--red);
+  --accent-hover: var(--red-dark);
+  --accent-subtle: var(--red-soft);
+  --accent-border: var(--red-border);
   --accent-glow: transparent;
 
-  --brand-blue: var(--accent);
-  --brand-blue-dark: #0d2a52;
-  --brand-blue-soft: var(--accent-subtle);
-
-  --brand-red: #14396b;
+  --brand-red: var(--red);
+  --brand-blue: var(--red);
+  --brand-blue-dark: var(--red-dark);
+  --brand-blue-soft: var(--red-soft);
   --brand-green: #1f7a3d;
 
-  --rule: #111111;
-  --ink: #111111;
+  --rule: #000000;
+  --ink: #000000;
 
-  /* Plain system stacks — Arial for furniture, Georgia for anything editorial. */
+  /* Oswald for furniture, condensed Roboto Serif for tabloid headlines. */
   --font-sans: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-  --font-display: Georgia, 'Times New Roman', Times, serif;
+  --font-cond: 'Oswald', 'Arial Narrow', Arial, sans-serif;
+  --font-display: 'Roboto Serif', Georgia, 'Times New Roman', Times, serif;
   --font-serif: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -65,48 +76,120 @@ body {
   min-height: 100vh;
 }
 
+/* ---------- headlines ---------- */
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
+  font-stretch: 75%;
+  font-weight: 800;
   color: var(--text-primary);
-  letter-spacing: 0;
-  font-weight: 700;
+  letter-spacing: -0.005em;
 }
 
 .headline {
   font-family: var(--font-display);
-  font-weight: 700;
-  letter-spacing: 0;
+  font-stretch: 75%;
+  font-weight: 800;
+  letter-spacing: -0.005em;
   color: var(--text-primary);
-  line-height: 1.24;
+  line-height: 1.1;
 }
 
 .headline-lg {
-  font-weight: 700;
-  letter-spacing: -0.01em;
-  line-height: 1.14;
+  font-weight: 900;
+  letter-spacing: -0.015em;
+  line-height: 1.02;
+}
+
+/* Splash head: the front-page shout, all caps and as tight as print allows. */
+.dr-splash {
+  font-family: var(--font-display);
+  font-stretch: 75%;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  line-height: 0.94;
 }
 
 .headline a:hover,
-a:hover .headline {
-  text-decoration: underline;
+a:hover .headline,
+a:hover > .headline {
+  color: var(--red);
+  text-decoration: none;
 }
 
-/* ---------- page chrome ---------- */
+.group:hover .headline {
+  color: var(--red);
+}
+
+/* ---------- masthead / page chrome ---------- */
+
+.dr-utility-bar {
+  background: var(--ink-black);
+  color: var(--text-on-dark-muted);
+}
+
+.dr-utility-bar a:hover {
+  color: #ffffff;
+}
 
 .dr-header-slab {
   background: var(--bg-base);
-  border-bottom: 1px solid var(--border-soft);
 }
 
+.dr-wordmark {
+  font-family: var(--font-display);
+  font-stretch: 75%;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  line-height: 0.86;
+  color: var(--ink-black);
+}
+
+.dr-wordmark-inverse {
+  color: #ffffff;
+}
+
+.dr-tagline {
+  font-family: var(--font-cond);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  color: var(--text-muted);
+}
+
+/* Black section rail — the spine of the whole site. */
 .dr-nav-rail {
-  border-top: 3px solid var(--rule);
-  border-bottom: 1px solid var(--border-soft);
-  background: var(--bg-base);
+  background: var(--ink-black);
+  border-top: 4px solid var(--red);
+  border-bottom: 1px solid var(--ink-black);
 }
 
+.dr-nav-link {
+  font-family: var(--font-cond);
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #e2e2e2;
+  border-bottom: 4px solid transparent;
+}
+
+.dr-nav-link:hover {
+  color: #ffffff;
+  background: var(--ink-panel-2);
+}
+
+.dr-nav-link-active {
+  color: #ffffff;
+  background: var(--ink-panel-2);
+  border-bottom-color: var(--red);
+}
+
+/* Breaking rail: solid red, white shout text. */
 .dr-ticker-rail {
-  border-bottom: 1px solid var(--border-soft);
-  background: var(--bg-surface);
+  background: var(--red);
+  border-bottom: 3px solid var(--ink-black);
+  color: #ffffff;
 }
 
 .dr-hero-shell {
@@ -115,25 +198,85 @@ a:hover .headline {
 }
 
 .dr-footer-slab {
-  border-top: 3px solid var(--rule);
-  background: var(--bg-surface);
+  background: var(--ink-black);
+  border-top: 5px solid var(--red);
+  color: var(--text-on-dark-muted);
+}
+
+.dr-footer-slab a {
+  color: #d2d2d2;
+}
+
+.dr-footer-slab a:hover {
+  color: #ffffff;
+}
+
+.dr-footer-heading {
+  font-family: var(--font-cond);
+  font-weight: 600;
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  padding-bottom: 0.375rem;
+  border-bottom: 3px solid var(--red);
+}
+
+/* ---------- flags, kickers, pills ---------- */
+
+/* Red uppercase kicker above a headline — the loudest small type on the page. */
+.section-label {
+  font-family: var(--font-cond);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--red);
+}
+
+.dr-flag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.1875rem 0.5rem;
+  font-family: var(--font-cond);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: var(--red);
+  color: #ffffff;
+}
+
+.dr-flag-black {
+  background: var(--ink-black);
+  color: #ffffff;
+}
+
+.dr-live-pill {
+  border-radius: 0;
 }
 
 .dr-kicker-mark {
-  width: 1.0625rem;
-  height: 1.0625rem;
   flex-shrink: 0;
+  padding: 0 0.1875rem;
   border-radius: 0;
-  background: var(--text-primary);
+  background: var(--red);
   color: #ffffff;
-  font-weight: 700;
+  font-family: var(--font-cond);
+  font-weight: 600;
+  letter-spacing: 0.04em;
 }
 
 .dr-avatar-cut {
-  width: 1.25rem;
-  height: 1.25rem;
   flex-shrink: 0;
+  padding: 0 0.25rem;
   border-radius: 0;
+  background: var(--red);
+  color: #ffffff;
+  font-family: var(--font-cond);
+  font-weight: 600;
+  letter-spacing: 0.04em;
 }
 
 .dr-brand-mark {
@@ -144,16 +287,108 @@ a:hover .headline {
   border-radius: 0;
 }
 
+/* Ranked list numerals — oversized red digits, print style. */
+.dr-rank {
+  font-family: var(--font-cond);
+  font-weight: 700;
+  color: var(--red);
+  line-height: 0.9;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- section headings ---------- */
+
+.dr-section-accent {
+  position: relative;
+  border-bottom: 3px solid var(--ink-black);
+}
+
+/* Black flag holding the section name, sitting on a black rule. */
+.dr-section-flag {
+  font-family: var(--font-cond);
+  font-weight: 600;
+  font-size: 0.9375rem;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: var(--ink-black);
+  color: #ffffff;
+  padding: 0.375rem 0.625rem 0.4375rem;
+}
+
+.dr-more-link {
+  font-family: var(--font-cond);
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--red);
+}
+
+.dr-more-link:hover {
+  color: var(--red-dark);
+  text-decoration: underline;
+}
+
+/* Page title: heavy caps over a red rule. */
+.dr-page-title {
+  font-family: var(--font-display);
+  font-stretch: 75%;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  line-height: 1;
+  color: var(--text-primary);
+  padding-bottom: 0.5rem;
+  border-bottom: 5px solid var(--red);
+}
+
+.dr-masthead-rule {
+  height: 4px;
+  width: 2.5rem;
+  background: var(--red);
+  border-radius: 0;
+}
+
+/* ---------- hero ---------- */
+
+.dr-hero-frame {
+  position: relative;
+  overflow: hidden;
+  background: var(--ink-black);
+}
+
+.dr-hero-scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.92) 0%,
+    rgba(0, 0, 0, 0.72) 32%,
+    rgba(0, 0, 0, 0.18) 62%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
 /* ---------- form controls ---------- */
 
 .dr-search {
   border-radius: 0;
+  border: 1px solid #4a4a4a;
+  background: var(--ink-panel-2);
+}
+
+.dr-search:focus-within {
+  border-color: var(--red);
+}
+
+.dr-search-light {
   border: 1px solid var(--border-strong);
   background: var(--bg-base);
 }
 
-.dr-search:focus-within {
-  border-color: var(--text-muted);
+.dr-search-light:focus-within {
+  border-color: var(--red);
 }
 
 .dr-icon-btn {
@@ -166,15 +401,18 @@ a:hover .headline {
 
 .dr-btn-cta {
   border-radius: 0;
-  background: var(--accent);
+  background: var(--red);
   color: #ffffff;
-  font-weight: 700;
-  border: 1px solid var(--accent);
+  font-family: var(--font-cond);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border: 1px solid var(--red);
 }
 
 .dr-btn-cta:hover {
-  background: var(--accent-hover);
-  border-color: var(--accent-hover);
+  background: var(--red-dark);
+  border-color: var(--red-dark);
 }
 
 .dr-notice-ok {
@@ -185,21 +423,15 @@ a:hover .headline {
 
 .dr-thumb {
   border-radius: 0;
-  border: 1px solid var(--border-soft);
 }
 
 .dr-media {
   border-radius: 0;
-  border: 1px solid var(--border-soft);
 }
 
 .dr-inset-panel {
   border-radius: 0;
   border: 1px solid var(--border-strong);
-}
-
-.dr-live-pill {
-  border-radius: 0;
 }
 
 .dr-pull-end {
@@ -208,7 +440,7 @@ a:hover .headline {
 
 .dr-disclaimer {
   border-radius: 0;
-  border: 1px solid var(--border-soft);
+  border-left: 4px solid var(--red);
   background: var(--bg-surface);
 }
 
@@ -232,26 +464,34 @@ a:hover .headline {
   display: inline-flex;
   align-items: center;
   gap: 0.375rem;
-  padding: 0.3125rem 0.625rem;
+  padding: 0.25rem 0.5rem;
   border-radius: 0;
-  border: 1px solid var(--border-strong);
-  background: var(--bg-base);
+  border: 1px solid var(--border-soft);
+  background: var(--bg-surface);
   color: var(--text-secondary);
-  font-size: 0.75rem;
-  font-weight: 400;
-  line-height: 1.1;
+  font-family: var(--font-cond);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.15;
 }
 
 .dr-chip:hover {
-  background: var(--bg-surface-2);
-  color: var(--text-primary);
-  border-color: var(--text-muted);
+  background: var(--ink-black);
+  color: #ffffff;
+  border-color: var(--ink-black);
 }
 
 .dr-chip-active {
-  background: var(--text-primary);
+  background: var(--red);
   color: #ffffff;
-  border-color: var(--text-primary);
+  border-color: var(--red);
+}
+
+.dr-chip-active:hover {
+  background: var(--red-dark);
+  border-color: var(--red-dark);
 }
 
 .dr-divider {
@@ -260,15 +500,6 @@ a:hover .headline {
 }
 
 /* ---------- typography helpers ---------- */
-
-.section-label {
-  font-family: var(--font-sans);
-  font-size: 0.6875rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--text-muted);
-}
 
 .meta-line {
   font-size: 0.75rem;
@@ -288,37 +519,55 @@ a:hover .headline {
   font-size: 1.0625rem;
 }
 
-.article-content h2 {
-  font-family: var(--font-serif);
-  color: var(--text-primary);
+/* Standfirst under the headline — sans, heavy, a size up from the body. */
+.article-content .article-dek {
+  font-family: var(--font-sans);
+  font-size: 1.1875rem;
   font-weight: 700;
-  font-size: 1.375rem;
-  letter-spacing: 0;
-  margin-top: 1.9rem;
-  margin-bottom: 0.6rem;
+  line-height: 1.45;
+  color: var(--text-primary);
+  margin-bottom: 1.4rem;
+}
+
+.article-content h2 {
+  font-family: var(--font-display);
+  font-stretch: 75%;
+  color: var(--text-primary);
+  font-weight: 900;
+  font-size: 1.625rem;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  margin-top: 2rem;
+  margin-bottom: 0.65rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 2px solid var(--ink-black);
 }
 
 .article-content blockquote {
-  border-left: 4px solid var(--border-strong);
+  border-left: 5px solid var(--red);
   padding: 0.25rem 0 0.25rem 1.125rem;
   margin: 1.5rem 0;
   background: transparent;
   border-radius: 0;
   color: var(--text-primary);
-  font-style: italic;
+  font-weight: 700;
+  font-style: normal;
 }
 
 /* ---------- static info pages ---------- */
 
 .info-content h2 {
+  font-family: var(--font-display);
+  font-stretch: 75%;
   color: var(--text-primary);
-  font-weight: 700;
-  font-size: 1.25rem;
-  letter-spacing: 0;
+  font-weight: 900;
+  font-size: 1.375rem;
+  text-transform: uppercase;
+  letter-spacing: -0.005em;
   margin-top: 2rem;
   margin-bottom: 0.6rem;
   padding-bottom: 0.3rem;
-  border-bottom: 1px solid var(--border-soft);
+  border-bottom: 2px solid var(--ink-black);
 }
 
 .info-content h2:first-child {
@@ -327,8 +576,8 @@ a:hover .headline {
 
 .info-content h3 {
   color: var(--text-primary);
-  font-weight: 700;
-  font-size: 1.0625rem;
+  font-weight: 800;
+  font-size: 1.125rem;
   margin-top: 1.4rem;
   margin-bottom: 0.4rem;
 }
@@ -356,12 +605,12 @@ a:hover .headline {
 }
 
 .info-content a {
-  color: var(--accent);
+  color: var(--red);
   text-decoration: underline;
 }
 
 .info-content a:hover {
-  color: var(--accent-hover);
+  color: var(--red-dark);
 }
 
 .info-content strong {
@@ -372,7 +621,7 @@ a:hover .headline {
 .info-callout {
   background: var(--bg-surface);
   border: 1px solid var(--border-soft);
-  border-left: 4px solid var(--text-primary);
+  border-left: 5px solid var(--red);
   border-radius: 0;
   padding: 0.875rem 1.125rem;
   margin: 1.25rem 0;
@@ -398,6 +647,7 @@ a:hover .headline {
 
 .info-faq summary:hover {
   background: var(--bg-surface);
+  color: var(--red);
 }
 
 .info-faq summary::after {
@@ -408,11 +658,10 @@ a:hover .headline {
   width: 20px;
   height: 20px;
   border-radius: 0;
-  border: 1px solid var(--border-strong);
-  background: var(--bg-base);
-  color: var(--text-primary);
-  font-family: var(--font-sans);
-  font-weight: 700;
+  background: var(--red);
+  color: #ffffff;
+  font-family: var(--font-cond);
+  font-weight: 600;
   font-size: 0.875rem;
   line-height: 1;
   flex-shrink: 0;
@@ -439,8 +688,8 @@ a:hover .headline {
 .scrollbar-hide { scrollbar-width: none; }
 
 ::selection {
-  background: #b8d4f5;
-  color: #111111;
+  background: var(--red);
+  color: #ffffff;
 }
 
 /* The track holds the headline list twice, so -50% is one seamless loop. */
@@ -457,27 +706,15 @@ a:hover .headline {
 
 @keyframes live-blink {
   0%, 60%   { opacity: 1; }
-  61%, 100% { opacity: 0.25; }
+  61%, 100% { opacity: 0.2; }
 }
 .live-dot {
   animation: live-blink 1.4s steps(1, end) infinite;
 }
 
-.dr-masthead-rule {
-  height: 3px;
-  width: 2.5rem;
-  background: var(--rule);
-  border-radius: 0;
-}
-
-/* Uppercase section heading with a full rule underneath, print style. */
-.dr-section-accent {
-  position: relative;
-  padding-bottom: 0.375rem;
-  border-bottom: 2px solid var(--rule);
-}
-
 .dr-newsletter-glow {
   background: var(--bg-surface);
-  border-color: var(--border-strong) !important;
+  border-color: var(--ink-black) !important;
+  border-top-width: 4px !important;
+  border-top-color: var(--red) !important;
 }

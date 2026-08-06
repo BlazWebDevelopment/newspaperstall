@@ -1,29 +1,29 @@
 import InfoPage from '@/components/InfoPage'
 
 export const metadata = {
-  title: 'About — Wafer News',
+  title: 'About — News Paper Stall',
   description:
-    'About Wafer News — our mission, how we curate the day’s top stories, and how to reach us.',
+    'About News Paper Stall — our mission, how we curate the day’s top stories, and how to reach us.',
 }
 
 export default function AboutPage() {
   return (
     <InfoPage
-      title="About Wafer News"
+      title="About News Paper Stall"
       kicker="About"
       updated="May 6, 2026"
-      intro="Wafer News is a clean, personalized daily news experience. We pull together the most important headlines across world, business, technology, sports, science, opinion and culture — then get out of your way."
+      intro="News Paper Stall is a clean, personalized daily news experience. We pull together the most important headlines across world, business, technology, sports, science, opinion and culture — then get out of your way."
     >
       <h2>Our mission</h2>
       <p>
-        Every day, more news is published than any one person can possibly read. Wafer News
+        Every day, more news is published than any one person can possibly read. News Paper Stall
         exists to cut through that noise: a fast, ad-light, distraction-free reading experience
         focused on what actually matters today, organized around the topics you care about.
       </p>
 
       <h2>How we curate</h2>
       <p>
-        Stories on Wafer News are organized into clearly labeled sections — Top stories, Hot,
+        Stories on News Paper Stall are organized into clearly labeled sections — Top stories, Hot,
         Live, Politics, Business, Technology, Sports, Culture and Opinion. Front-page placement is
         based on a mix of editorial weight, recency, and what readers are reading right now.
       </p>
@@ -43,7 +43,7 @@ export default function AboutPage() {
 
       <h2>The team</h2>
       <p>
-        Wafer News is produced by a small editorial and engineering team. Section desks
+        News Paper Stall is produced by a small editorial and engineering team. Section desks
         (Politics, Business, Technology, Sports, Culture, Crypto, Live) each curate their own
         feeds, with a shared front page assembled by our top-stories editor.
       </p>
@@ -65,7 +65,7 @@ export default function AboutPage() {
       </ul>
 
       <div className="info-callout">
-        Wafer News is an independent product. We do not currently accept paid placement or
+        News Paper Stall is an independent product. We do not currently accept paid placement or
         sponsored stories on the front page.
       </div>
     </InfoPage>

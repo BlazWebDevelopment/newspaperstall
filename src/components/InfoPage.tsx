@@ -19,16 +19,14 @@ export default function InfoPage({ title, kicker, updated, intro, children }: In
       <main className="max-w-[820px] mx-auto px-4 md:px-6 py-8">
         <article>
           {kicker && <div className="section-label mb-1.5">{kicker}</div>}
-          <h1 className="font-display font-bold text-[28px] md:text-[34px] leading-tight text-[color:var(--text-primary)] pb-2 border-b-[3px] border-[color:var(--rule)]">
-            {title}
-          </h1>
+          <h1 className="dr-page-title text-[32px] md:text-[42px]">{title}</h1>
           {updated && (
-            <p className="text-[11px] font-sans uppercase tracking-[0.06em] text-[color:var(--text-muted)] mt-2">
+            <p className="font-cond text-[13px] uppercase tracking-[0.08em] text-[color:var(--text-muted)] mt-2">
               Last updated {updated}
             </p>
           )}
           {intro && (
-            <p className="font-serif text-[16px] text-[color:var(--text-secondary)] leading-[1.6] mt-4 pb-5 mb-6 border-b border-[color:var(--border-soft)]">
+            <p className="font-sans font-bold text-[16px] text-[color:var(--text-secondary)] leading-[1.55] mt-4 pb-5 mb-6 border-b border-[color:var(--border-soft)]">
               {intro}
             </p>
           )}
