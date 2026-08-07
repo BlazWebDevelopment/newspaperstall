@@ -30,6 +30,7 @@ import tomatoOnAStickAuctionImage from '@/context/hEe6yXGrxq.png'
 import pearlHippoHeaderImage from '@/context/0K3KjYAAoo.png'
 import pearlHippoInlineImage from '@/context/ZQNT9tzwsz.png'
 import growingNanaAscendImage from '@/context/CqOlkE5Jyn.jpg'
+import banksyAscendBeyondHeaderImage from '@/context/KRQwdMKR4b.jpg'
 
 
 const hero1Image =
@@ -93,6 +94,30 @@ export interface Article {
 }
 
 export const articles: Article[] = [
+  {
+    id: '98437339',
+    title: "Banksy's New Statue in London",
+    summary:
+      'Art enthusiasts and curious onlookers gathered in central London for the unveiling of Ascend Beyond, a striking new public sculpture attributed to the anonymous street artist Banksy — a bronze figure stretching toward a radiant eight-pointed star.',
+    body: [
+      {
+        type: 'heading',
+        text: 'Banksy Unveils Ascend Beyond, a Monumental New Sculpture in London',
+      },
+      'LONDON — Art enthusiasts and curious onlookers gathered in central London for the unveiling of Ascend Beyond, a striking new public sculpture attributed, in this fictional story, to the anonymous street artist Banksy.',
+      'Standing high above the square, the bronze figure stretches toward a radiant eight-pointed star, capturing a moment of aspiration and transformation. The sculpture\'s flowing metallic forms create the illusion of movement, as if the figure is rising beyond earthly limits. At its base, a single engraved word—ASCEND—serves as both a title and an invitation.',
+      'Unlike Banksy\'s iconic stencil murals, Ascend Beyond imagines the artist stepping into the world of monumental sculpture while retaining the symbolic storytelling that has made his work internationally recognized. Rather than focusing on political satire, the fictional piece explores themes of hope, resilience, and humanity\'s desire to reach for something greater.',
+      'Visitors quickly gathered around the installation, photographing the artwork from every angle and sharing images across social media. Many praised its blend of classical proportions with contemporary symbolism, noting how the upward-reaching figure contrasts with the surrounding historic architecture of London.',
+      'In this imagined narrative, Ascend Beyond represents a new chapter in Banksy\'s artistic journey—one that exchanges walls for public spaces and fleeting interventions for a permanent landmark. Whether viewed as a symbol of ambition, freedom, or perseverance, the sculpture invites every passerby to pause, look upward, and consider what it truly means to ascend beyond limitations.',
+    ],
+    category: 'Culture',
+    time: '16:13',
+    section: 'culture',
+    image: banksyAscendBeyondHeaderImage,
+    byline: 'NPS Culture Desk',
+    date: '2026-08-07',
+  },
+
   {
     id: '98437335',
     title: 'Grinning Mamdani relentlessly booed at NYPD Staten Island event',
