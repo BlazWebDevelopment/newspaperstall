@@ -99,37 +99,6 @@ export interface Article {
 export const articles: Article[] = [
 
   {
-    id: '98437339',
-    title: 'Neuralink Under Fire After Zoo Animal Dies During Brain Implant Experiment',
-    summary:
-      'A regional zoo has issued a strongly worded statement after Zoey, a beloved pygmy hippo, died during an experimental brain-interface procedure at external laboratories operated by Neuralink.',
-    body: [
-      'A regional zoo has issued a strongly worded statement following the death of one of its smallest and most beloved residents, a pygmy animal named Zoey, during an experimental procedure conducted at external research facilities.',
-      {
-        type: 'image',
-        src: zoeyPygmyHippoImage,
-        caption: 'Zoey, the pygmy hippo who died during a Neuralink brain-interface experiment, was a popular ambassador for her species at the regional zoo.',
-        alt: 'Zoey, a baby pygmy hippopotamus, walking on a wet surface',
-      },
-      'According to the zoo, Zoey had been transferred to laboratories operated by Neuralink as part of a neurological experiment involving advanced brain-interface technology. The procedure was described as highly complex, particularly given Zoey\'s small size and delicate physiology.',
-      'The zoo confirmed that Zoey did not survive the experiment.',
-      'In its statement, zoo officials expressed anger and frustration over the outcome, emphasizing that Zoey had been a healthy and valued member of their educational program.',
-      '"We are deeply upset by what has happened. Zoey was not just part of our zoo, but an ambassador for her species. This loss is devastating."',
-      'Zoey had been especially popular with school groups, helping teach visitors about biodiversity, conservation, and the importance of protecting smaller species often overlooked in the wild.',
-      'The incident has sparked growing criticism online and among animal welfare advocates, with Neuralink now facing backlash over the ethics and safety of its experimental practices. The zoo stated it is reviewing its policies regarding collaboration with external research organizations.',
-      '"We are beyond appalled that Zoey was taken from our care for what was described as a research collaboration and instead subjected to experimental procedures at external facilities. This is completely unacceptable. We were not fully informed of the risks involved, and we feel our trust has been seriously violated. Zoey was not a test subject—she was a living, irreplaceable part of our educational program and our community. We demand a full explanation of how this was allowed to happen."',
-      'The zoo added that it is now reviewing all partnerships with external research organizations and considering suspending future collaborations pending further investigation.',
-      'The incident has intensified public scrutiny of the experiment, with the research organization involved facing increasing criticism and calls for clearer ethical oversight in animal-related neurological research.',
-    ],
-    category: 'Tech',
-    time: '10:53',
-    section: 'hot',
-    image: neuralinkZoeyHeaderImage,
-    byline: 'NPS Tech Desk',
-    date: '2026-08-17',
-  },
-
-  {
     id: '98437335',
     title: 'Grinning Mamdani relentlessly booed at NYPD Staten Island event',
     summary:
