@@ -472,6 +472,18 @@ export default function ArticlePage({ params }: ArticlePageProps) {
                                 className="w-full h-auto dr-media object-cover"
                               />
                               {block.caption ? <Caption>{block.caption}</Caption> : null}
+                              {block.link ? (
+                                <p className="text-[13px] font-sans mt-2">
+                                  <a
+                                    href={block.link.href}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-[color:var(--accent)] underline hover:opacity-80"
+                                  >
+                                    {block.link.label}
+                                  </a>
+                                </p>
+                              ) : null}
                             </figure>
                           )
                         }
