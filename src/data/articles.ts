@@ -37,6 +37,7 @@ import zoeyPygmyHippoImage from '@/context/VHCAmyNyOf.png'
 import gunnaMemeLifeHeaderImage from '@/context/wLdhwW8h7j.png'
 import gunnaMemeLifeInlineImage from '@/context/fjYOFmvmcg.png'
 import sheepOnLadderHeaderImage from '@/context/ZaGyplTLSk.jpg'
+import czCarrotHeaderImage from '@/context/MAjPhLfsqE.jpg'
 
 
 const hero1Image =
@@ -140,6 +141,33 @@ export interface Article {
 }
 
 export const articles: Article[] = [
+
+  {
+    id: '98437364',
+    title: 'CZ Binance Welcomes New Dog Named Carrot',
+    summary:
+      'Changpeng Zhao, better known across the crypto world as CZ, has a new companion — a dog named Carrot.',
+    body: [
+      'Changpeng Zhao, better known across the crypto world as CZ, has a new companion — a dog named Carrot.',
+      'The Binance co-founder reportedly introduced Carrot as the newest member of his household, quickly attracting attention from crypto fans who are more accustomed to seeing CZ discuss markets, blockchain technology, and the future of digital assets.',
+      'Carrot, a light-colored, shaggy dog with a distinctive beard-like coat, has already earned plenty of attention for his unusual name and recognizable look.',
+      { type: 'heading', text: 'Meet Carrot' },
+      'While CZ has built one of the most recognizable names in cryptocurrency, Carrot could soon become a recognizable face of his own.',
+      'The dog\'s name immediately sparked jokes among crypto followers, with some fans suggesting that Carrot may eventually become CZ\'s unofficial mascot.',
+      'Photos of the pair would mark a much more personal and relaxed side of CZ compared with his usual appearances at conferences, interviews, and industry events.',
+      { type: 'heading', text: 'Crypto\'s Newest Four-Legged Celebrity?' },
+      'Animals have long had a special place in internet and crypto culture, with dogs in particular becoming closely associated with online communities and even major cryptocurrency projects.',
+      'That makes Carrot\'s arrival especially fitting.',
+      'Whether Carrot remains simply CZ\'s new companion or accidentally becomes another internet-famous crypto dog remains to be seen.',
+      'For now, one thing appears certain: CZ has a new best friend, and his name is Carrot.',
+    ],
+    category: 'Crypto',
+    time: '18:49',
+    section: 'hot',
+    image: czCarrotHeaderImage,
+    byline: 'NPS Crypto Desk',
+    date: '2026-08-25',
+  },
 
   {
     id: '98437360',
