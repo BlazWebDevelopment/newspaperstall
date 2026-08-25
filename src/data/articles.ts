@@ -36,6 +36,7 @@ import neuralinkZoeyHeaderImage from '@/context/xkxf0n3sEP.png'
 import zoeyPygmyHippoImage from '@/context/VHCAmyNyOf.png'
 import gunnaMemeLifeHeaderImage from '@/context/wLdhwW8h7j.png'
 import gunnaMemeLifeInlineImage from '@/context/fjYOFmvmcg.png'
+import sheepOnLadderHeaderImage from '@/context/ZaGyplTLSk.jpg'
 
 
 const hero1Image =
@@ -61,7 +62,7 @@ const craigWayneBoydImage =
 const mcdonaldsSodaImage =
   'https://images.unsplash.com/photo-1534119428213-bd2626145164?w=1600&q=80&auto=format&fit=crop'
 
-const k9DogImage =
+  const k9DogImage =
   'https://images.unsplash.com/photo-1568572933382-74d440642117?w=1600&q=80&auto=format&fit=crop'
 const mikolasImage =
   'https://images.unsplash.com/photo-1503919005314-30d93d07d823?w=1600&q=80&auto=format&fit=crop'
@@ -73,7 +74,25 @@ const antiElonClubImage =
   'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1600&q=80&auto=format&fit=crop'
 const openAiImage =
   'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600&q=80&auto=format&fit=crop'
-  const washingtonDcImage =
+
+/* Stock file images used illustratively where no licensed news photo is held. */
+const montecitoEstateImage =
+  'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600&q=80&auto=format&fit=crop'
+const montecitoGroundsImage =
+  'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600&q=80&auto=format&fit=crop'
+const cyclingTeamImage =
+  'https://images.unsplash.com/photo-1541625602330-2277a4c46182?w=1600&q=80&auto=format&fit=crop'
+const cyclingPelotonImage =
+  'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=1600&q=80&auto=format&fit=crop'
+const iranPortSanctionsImage =
+  'https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1600&q=80&auto=format&fit=crop'
+const iranTankerTrafficImage =
+  'https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=1600&q=80&auto=format&fit=crop'
+const fairfaxPoliceImage =
+  'https://images.unsplash.com/photo-1453873531674-2151bcd01707?w=1600&q=80&auto=format&fit=crop'
+const pncParkImage =
+  'https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=1600&q=80&auto=format&fit=crop'
+const washingtonDcImage =
   'https://images.unsplash.com/photo-1617581629397-a72507c3de9e?w=1600&q=80&auto=format&fit=crop'
 const dsaRallyImage =
   'https://images.unsplash.com/photo-1567942712661-82b9b407abbf?w=1600&q=80&auto=format&fit=crop'
@@ -121,6 +140,31 @@ export interface Article {
 }
 
 export const articles: Article[] = [
+
+  {
+    id: '98437364',
+    title:
+      'Man Detained After Allegedly Using Live Sheep on Ladder to Collect Donations in European City',
+    summary:
+      'A bizarre scene in a busy European city center drew the attention of pedestrians and authorities after a man allegedly placed a live sheep on top of a wooden ladder as part of an unusual attempt to collect donations from passersby.',
+    body: [
+      'EUROPE — A bizarre scene in a busy European city center drew the attention of pedestrians and authorities today after a man allegedly placed a live sheep on top of a wooden ladder as part of an unusual attempt to collect donations from passersby.',
+      'Witnesses said the sheep was standing several feet above the pavement on a wooden ladder while a handwritten sign reading “DONATIONS — THANK YOU” was placed beside it. A small donation jar was reportedly positioned nearby for people to leave money.',
+      'Photos of the unusual setup quickly began circulating online, with many people questioning whether the animal was safe and how it had been placed on the ladder in the first place.',
+      'Local authorities were eventually called to the scene after concerned pedestrians reported the incident. Officers reportedly ordered the owner to remove the sheep from the ladder and questioned him about the way the animal was being used to solicit money.',
+      { type: 'heading', text: 'Detained over animal welfare and unauthorized solicitation' },
+      'According to preliminary reports, the man was detained and is expected to face questioning over possible animal-welfare violations and unauthorized collection of donations in a public area.',
+      'The sheep was safely removed from the ladder and appeared to be unharmed.',
+      'Officials have not yet released the identity of the person involved or confirmed what charges, if any, will ultimately be filed.',
+      'The strange incident has already sparked discussion online, with some users describing the scene as funny and surreal, while others argued that using a live animal in such a situation crossed the line.',
+    ],
+    category: 'World',
+    time: '16:45',
+    section: 'hot',
+    image: sheepOnLadderHeaderImage,
+    byline: 'NPS World Desk',
+    date: '2026-08-24',
+  },
 
   {
     id: '98437360',
