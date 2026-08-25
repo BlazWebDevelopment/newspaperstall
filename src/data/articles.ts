@@ -73,6 +73,28 @@ const antiElonClubImage =
   'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1600&q=80&auto=format&fit=crop'
 const openAiImage =
   'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600&q=80&auto=format&fit=crop'
+  const washingtonDcImage =
+  'https://images.unsplash.com/photo-1617581629397-a72507c3de9e?w=1600&q=80&auto=format&fit=crop'
+const dsaRallyImage =
+  'https://images.unsplash.com/photo-1567942712661-82b9b407abbf?w=1600&q=80&auto=format&fit=crop'
+const gansevoortSoccerImage =
+  'https://images.unsplash.com/photo-1552667466-07770ae110d0?w=1600&q=80&auto=format&fit=crop'
+const floodlitPitchImage =
+  'https://images.unsplash.com/photo-1487466365202-1afdb86c764e?w=1600&q=80&auto=format&fit=crop'
+const giantsPreseasonImage =
+  'https://images.unsplash.com/photo-1566577739112-5180d4bf9390?w=1600&q=80&auto=format&fit=crop'
+const courthouseGavelImage =
+  'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1600&q=80&auto=format&fit=crop'
+const scrambledEggsImage =
+  'https://images.unsplash.com/photo-1525351484163-7529414344d8?w=1600&q=80&auto=format&fit=crop'
+const restaurantInteriorImage =
+  'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600&q=80&auto=format&fit=crop'
+const groceryAisleImage =
+  'https://images.unsplash.com/photo-1542838132-92c53300491e?w=1600&q=80&auto=format&fit=crop'
+const bodegaShelvesImage =
+  'https://images.unsplash.com/photo-1578916171728-46686eac8d58?w=1600&q=80&auto=format&fit=crop'
+const basketballArenaImage =
+  'https://images.unsplash.com/photo-1504450758481-7338eba7524a?w=1600&q=80&auto=format&fit=crop'
 
 export type ArticleImage = string | StaticImageData
 
@@ -100,7 +122,244 @@ export interface Article {
 
 export const articles: Article[] = [
 
+  {
+    id: '98437360',
+    title:
+      '49ers Owner Jed York Pleads No Contest After $140 Prostitution Sting at Ohio Trailer Park',
+    summary:
+      'Court records show the 46-year-old NFL owner answered an online ad, agreed to pay $140 for sex and was arrested by a human-trafficking task force in East Palestine, Ohio. He cut a plea deal a day later and was fined $1,150.',
+    body: [
+      'San Francisco 49ers owner Jed York was arrested at an Ohio trailer park on Sunday after allegedly agreeing to pay a woman $140 for sex, and by Monday he had already resolved the case with a plea deal, court records show.',
+      'According to documents filed in Columbiana County Municipal Court, York responded to an advertisement on a website known for prostitution listings and arranged a paid sexual encounter. The meeting point was a trailer park in East Palestine, the small town near the Pennsylvania line best known for the 2023 train derailment.',
+      {
+        type: 'image',
+        src: courthouseGavelImage,
+        caption:
+          'Illustrative: a courtroom gavel. York entered his plea in Columbiana County Municipal Court on Monday, a day after his arrest.',
+        alt: 'A wooden judge’s gavel resting on a desk',
+      },
+      'When York arrived, an agent with the Mahoning Valley Human Trafficking Task Force took him into custody. The filings note that he was carrying the cellphone investigators say he used to set up the meeting, which formed the basis of a second charge.',
+      'He was booked into the county jail on one count of engaging in prostitution and one count of possessing criminal tools.',
+      { type: 'heading', text: 'A one-day sentence and $1,150 in fines' },
+      'On Monday, York pleaded no contest to a reduced charge of disorderly conduct along with the criminal-tools count, according to the court records. He was sentenced to a single day in jail, credited as already served, and ordered to pay $1,150 in fines. A filing from his attorney states that he also completed an online course.',
+      'York, 46, grew up in Youngstown, Ohio, roughly half an hour from where he was arrested. He has run the 49ers as chief executive since 2008, when control of the franchise passed to the York family’s younger generation. He and his wife, Danielle Belluomini York, have been married for more than a decade and have two sons.',
+      'The 49ers have not commented on the arrest. The team played the Chargers in Los Angeles in an exhibition game on Aug. 20 and closes its preseason against the Raiders in Las Vegas on Aug. 27.',
+      'Reporting in this story is based on Columbiana County court records first obtained and reported by the New York Post. The photograph is a stock file image, not a photograph of the events described.',
+    ],
+    category: 'Sports',
+    time: '14:05',
+    section: 'sports',
+    image: courthouseGavelImage,
+    byline: 'Alma Shriq News Sports Desk',
+    date: '2026-08-24',
+  },
 
+  {
+    id: '98437361',
+    title:
+      'Immigrant Grocers Sue Mamdani Over City-Owned Supermarkets, Comparing Plan to a Walmart Invasion',
+    summary:
+      'A coalition of 50 ethnic chambers of commerce filed two lawsuits Monday arguing the mayor’s five taxpayer-funded stores, with prices pledged at 30% below market, would crush minority-owned bodegas the way Walmart was long feared to.',
+    body: [
+      'A coalition of immigrant grocery and bodega owners sued Mayor Zohran Mamdani on Monday over his plan to open five government-owned supermarkets, arguing the taxpayer-funded stores would do to minority-owned food retailers what New York politicians spent decades warning Walmart would do.',
+      'The Multicultural Business Coalition, an umbrella group of 50 chambers of commerce representing ethnically diverse business owners, filed two cases in state court. One is a seven-page class action brought on behalf of what it describes as hundreds of store owners from groups that have historically faced discrimination, alleging the municipal stores would violate their civil rights.',
+      {
+        type: 'image',
+        src: groceryAisleImage,
+        caption:
+          'Illustrative: a produce aisle at a neighborhood grocery. The city has pledged its five municipal stores will sell staples at 30% below market rates.',
+        alt: 'Rows of fresh produce inside a small grocery store',
+      },
+      'The second, a 13-page petition in state Supreme Court, leans on a comparison New Yorkers will recognize: Walmart, which tried repeatedly to open in the five boroughs and was beaten back each time by politicians and unions warning it would wipe out small businesses.',
+      'The city stores have pledged to sell food roughly 30% below market rates — a discount the filing says rivals or exceeds Walmart’s. The suit argues the plan amounts to letting a deep-discount operator into the city under the banner of affordability, at the direct expense of minority-owned and small businesses.',
+      { type: 'heading', text: '“A direct assault on minority business”' },
+      'The petition also accuses City Hall of skipping a proper review before announcing the sites in July, including any land-use study of how the stores would affect existing groceries nearby, and asks the court to force the city to conduct an economic analysis.',
+      '“Make no mistake about this plan,” said Ken Roldan, the coalition’s president. “It is a direct assault on minority business by a mayor who claims to be a champion of disenfranchised poor and working-class New Yorkers.”',
+      'The group’s chairman, Frank Garcia, invoked his grandfather, who opened one of East Harlem’s early bodegas in the late 1960s as larger chains abandoned the neighborhood, and founded an association to defend immigrant store owners. What the mayor is doing, Garcia said, disgraces that memory.',
+      {
+        type: 'image',
+        src: bodegaShelvesImage,
+        caption:
+          'Illustrative: stocked shelves at a corner store. The coalition says bodega ownership has passed through waves of Puerto Rican, Dominican, Arab, Korean, Chinese and Mexican immigrants.',
+        alt: 'Densely stocked shelves inside a small corner grocery store',
+      },
+      'Jairo Guzman, who leads the New York State Mexican Chamber of Commerce, called food retail “New York City’s great mosaic,” built by successive waves of Puerto Rican, Dominican, Arab, Korean, Chinese and Mexican owners, and urged the mayor to withdraw the plan and work with the industry instead.',
+      { type: 'heading', text: 'The $70 million plan' },
+      'The five stores are projected to cost taxpayers $70 million to build. City Hall says the 30% markdown on staples like produce, meat, milk, cheese and bread will save shoppers an average of $90 a month, or about $1,000 a year.',
+      'The first two locations announced are La Marqueta in East Harlem and the former Spofford juvenile detention site at Hunts Point in the Bronx. Locations for Brooklyn, Queens and Staten Island have not been disclosed.',
+      'The suits do not yet name individual plaintiffs; Roldan said the first will be identified at a press conference this week and added to the filings. He also said some owners fear the administration will retaliate through permit and license inspections — and that the coalition will publicize any such cases.',
+      'Reporting in this story is based on the court filings and on coverage by the New York Post, which first reported the lawsuits. The photographs are stock file images, not photographs of the businesses involved.',
+    ],
+    category: 'Business',
+    time: '13:30',
+    section: 'finance',
+    image: groceryAisleImage,
+    byline: 'Alma Shriq News Business Desk',
+    date: '2026-08-24',
+  },
+
+  {
+    id: '98437362',
+    title:
+      'Enes Kanter Freedom Gives His Version of Courtside Clash With Natasha Cloud That Got Him Ejected',
+    summary:
+      'The former NBA center says the Sky guard accused him of trying to “sleep with” Sophie Cunningham after he celebrated a three-pointer, before security walked him out of Wintrust Arena without explanation.',
+    body: [
+      'Enes Kanter Freedom has offered his account of the courtside confrontation with Chicago Sky guard Natasha Cloud that ended with security escorting him out of Wintrust Arena during Sunday night’s Sky-Fever game.',
+      'The former NBA center told Fox News he was in Chicago as a fan, enjoying the game with friends, when things turned late in the third quarter after Indiana’s Sophie Cunningham hit a three-pointer.',
+      {
+        type: 'image',
+        src: basketballArenaImage,
+        caption:
+          'Illustrative: a professional basketball arena. The confrontation unfolded courtside at Wintrust Arena late in the third quarter Sunday.',
+        alt: 'A basketball arena court seen from the seats under bright lights',
+      },
+      'Freedom said he raised his arms to celebrate the shot, and that a few possessions later Cloud came toward him shouting. By his telling, she yelled, “She’s not going to sleep with you” — to which he says he responded that he was not trying to sleep with anyone and was “just here to protect women.”',
+      'He said he was shocked by the language Cloud used with young fans sitting nearby, saying he could not believe the profanity given how many kids in Chicago look up to her.',
+      { type: 'heading', text: 'Walked out without a reason, he says' },
+      'Freedom said security then told him he had to leave, declined to say why, and all but pushed him out of the building. He said he told police officers afterward that he had only been there to “protect women.”',
+      'Cloud did not address the exchange directly, but posted a message on Threads on Sunday night telling trans people they belong, are loved, and “will always be protected by me.”',
+      'Sky coach Tyler Marsh backed his guard after Chicago’s 113-90 loss to the Fever. “We all embrace her as someone that protects our team, and protects people that need to be protected,” he said. “Tash is always gonna stand on that, and we stand for Tash.”',
+      { type: 'heading', text: 'A month of escalating provocation' },
+      'The run-in is the latest turn in a controversy Freedom has been stoking for weeks. After Cunningham said in an ESPN feature that she wants to “protect young girls” from “biological men” in sports, Freedom filmed himself signing a document declaring for the 2027 WNBA draft.',
+      'Last week he escalated further, claiming he had spoken with eight men about entering the draft if the league does not clarify its eligibility rules, and contrasting the G League’s $45,000 salaries with the $1.4 million earned by top WNBA players.',
+      'The WNBA’s anti-hate task force met this month and said it found no immediate eligibility matters affecting the league. “We strongly denounce the bad-faith efforts to use these topics to demean or marginalize others,” a league spokesperson said.',
+      'TMZ had reported before tipoff that Freedom planned to attend the game.',
+      'Reporting in this story is based on Freedom’s Fox News interview and coverage by the New York Post. The photograph is a stock file image, not a photograph of the incident described.',
+    ],
+    category: 'Sports',
+    time: '12:15',
+    section: 'sports',
+    image: basketballArenaImage,
+    byline: 'Alma Shriq News Sports Desk',
+    date: '2026-08-24',
+  },
+
+  {
+    id: '98437363',
+    title:
+      'Tourist Finds “Burn the Eggs and Spit in Them” Printed on Her Bill at Italian Restaurant',
+    summary:
+      'A Brazilian visitor who asked for her scrambled eggs a little more cooked discovered the kitchen instruction on her receipt. The restaurant apologized — then its owner appeared to joke about the episode on TikTok.',
+    body: [
+      'A Brazilian tourist dining on the Adriatic coast of Italy says her breakfast came with an instruction she was never meant to see: a note on the bill telling the chef to burn her eggs and spit in them.',
+      '“I’m still in shock, I can’t believe this happened to me,” the woman, who gave her name only as Maria Clara, told local media.',
+      {
+        type: 'image',
+        src: scrambledEggsImage,
+        caption:
+          'Illustrative: a plate of scrambled eggs. The dispute began when the diner asked for her order a little more cooked.',
+        alt: 'A breakfast plate with scrambled eggs on a table',
+      },
+      'Clara was visiting the Victor Lab restaurant on Viale Ceccarini in Italy’s Romagna region with her family on Aug. 19, according to the local outlet La Voce di Cesenatico. She ordered scrambled eggs, juice and coffee, and found the eggs runnier than she liked.',
+      'When she politely asked for them a little more cooked, she says the server scoffed that the kitchen doesn’t serve raw eggs. The plate came back still soft, and with a side salad she had asked them to leave off. “I let it go because I didn’t want to argue,” she recalled.',
+      { type: 'heading', text: 'The message on the receipt' },
+      'It was only when the bill arrived that she saw the kitchen ticket’s printed instruction — an annoyed note telling the chef to burn the eggs and spit in them. She photographed it and included it in a one-star Google review.',
+      'Clara said she first took it for a joke, but the family grew frightened at the thought their food might actually have been tampered with and confronted the managers.',
+      {
+        type: 'image',
+        src: restaurantInteriorImage,
+        caption:
+          'Illustrative: a restaurant dining room. The server responsible, a 17-year-old employed for a few weeks, reportedly went pale when confronted.',
+        alt: 'Empty tables and chairs inside a modern restaurant',
+      },
+      'The culprit turned out to be a 17-year-old server who had been on the job only a few weeks. Clara says he went white, grew visibly nervous, and apologized, insisting the note was an inside joke with the chef. When he tried to throw the receipt away, she warned him she would call the police.',
+      { type: 'heading', text: 'An apology, then a TikTok' },
+      'The restaurant later apologized beneath her review, calling the behavior “absolutely inappropriate” and saying it in no way reflects the values and professional standards the business works to uphold. The server’s youth and brief tenure, management added, “does not diminish the gravity of what happened.”',
+      'The contrition was undercut days later when the restaurant’s TikTok account posted a video in which the owner played a demanding customer ordering a dish with “spit” — complete with a poll asking followers whether the teenage server should be fired.',
+      '“Sometimes it almost makes you laugh when you watch it, but this isn’t a laughing matter. It’s serious,” said Clara, who asked that her surname be withheld after receiving death threats and racist abuse online.',
+      'Reporting in this story is based on coverage by La Voce di Cesenatico and the New York Post. The photographs are stock file images, not photographs of the restaurant or meal described.',
+    ],
+    category: 'Lifestyle',
+    time: '11:40',
+    section: 'culture',
+    image: scrambledEggsImage,
+    byline: 'Alma Shriq News Culture Desk',
+    date: '2026-08-24',
+  },
+
+  {
+    id: '98437356',
+    title:
+      'Parents Say Aggressive Vagrants Are Menacing Girls’ Soccer Practice at Hudson River Park',
+    summary:
+      'Families using the $73 million field at Gansevoort Peninsula describe public nudity, obscene taunts and a bench set alight beside children as young as five. The NYPD says it has had no 311 complaints about the site.',
+    body: [
+      'Parents at one of Manhattan’s newest waterfront parks say a rotating group of homeless men has turned the sidelines of a girls’ soccer field into a place where children as young as five are exposed to public nudity, obscene taunts and, on at least one occasion, a bench set on fire.',
+      'The complaints center on the sports field at Gansevoort Peninsula, the $73 million park that opened in 2023 on the Hudson River in the Meatpacking District, across the West Side Highway from the Whitney Museum.',
+      {
+        type: 'image',
+        src: floodlitPitchImage,
+        caption:
+          'Illustrative: a floodlit municipal soccer pitch. Parents say the open layout at Gansevoort Peninsula lets anyone walk up on a children’s session.',
+        alt: 'An empty floodlit soccer pitch with goalposts at night',
+      },
+      'New York Post reporters who spent Wednesday morning at the field described a man in an obscene rubber mask standing less than 20 feet from the children, then pulling off his shirt and shouting at no one in particular shortly after 9 a.m.',
+      '“Everyone wants to party, but no one wants to pay for party!” he yelled, according to the paper.',
+      'When he removed the mask, onlookers said, his face was covered in roughly 30 piercings, with studs ringing his mouth, eyebrows and eyes. A second piece of the costume, worn on his head, was scrawled with obscenities.',
+      { type: 'heading', text: 'Parents say nothing changes' },
+      'Jason Fernández, whose daughter trains with the Gotham Girls Football Club, said the masked man had started waving at the players. “It’s extremely concerning,” he told the Post. “Nothing is being done.”',
+      '“When it comes to the kids, something has to happen,” he said. “These men need help, but obviously they’re not getting it and because of that everyone else has to suffer.”',
+      'Neighbors across the street told the paper the group drinks at a Mobil station on Eighth Avenue before walking over to the park, where their numbers can swell to a dozen.',
+      'A dog walker, Geronimo Silva, said he watched two members of the group have sex on a bench in the middle of the afternoon about a week earlier. “This city is becoming worse,” he said.',
+      'During the Post’s visit, one man slept on a bench in front of the children and another lay inside the goal. A fourth panhandled while making an obscene gesture, announcing that he accepted Cash App, Venmo, PayPal and Zelle.',
+      'One parent said a man the families have nicknamed “Fire Bug” recently set fire to benches while practice was underway. Fernández pointed out scorch marks on the underside of one of them.',
+      { type: 'heading', text: 'City agencies say the park is not a hotspot' },
+      'Encampments at the 5.5-acre site, which also has a beach and a boardwalk, were cleared twice last summer. This year the NYPD told the Post it had not responded to incidents at the park and had received no 311 complaints about the group.',
+      'The Department of Homeless Services said the location was “not a known hotspot,” but that it would “monitor this location and offer shelter and services to any vulnerable individuals” its teams encounter.',
+      'Saad Afif, who owns Manhattan Football Training and coaches at the field regularly, said the open layout makes it easy for anyone to wander into a session. “A few times I had to step in and tell people to either go away or tell security,” he said.',
+      'Food vendors said they are targeted too. A 26-year-old kiosk worker described threats roughly twice a week, usually from the same faces and usually over demands for free food.',
+      'Parks staff were called to move the group along again on Wednesday. Parents said they expect to see them back.',
+      '“The parks people come around every now and then, but the homeless just leave and come back 10 minutes later,” said one parent, Lee, whose daughter also plays for Gotham Girls.',
+      'Reporting in this story is based on original coverage by the New York Post, which first reported the scenes at Gansevoort Peninsula, and on statements from the NYPD and the city Department of Homeless Services. The photographs are stock file images, not photographs of the events described.',
+    ],
+    category: 'Metro',
+    time: '10:15',
+    section: 'hot',
+    image: gansevoortSoccerImage,
+    byline: 'Alma Shriq News Metro Desk',
+    date: '2026-08-23',
+  },
+
+  {
+    id: '98437357',
+    title:
+      'Ohio Doctor Shot Dead in Alleged Murder Plot Arranged by Her 18-Year-Old Daughter',
+    summary:
+      'Tamela Dutcher, 55, who once co-authored research on homicidal adolescents, was killed inside her Delaware County home. Prosecutors say her daughter set up the attack after an argument over chores.',
+    body: [
+      'An Ohio doctor was shot dead in her own living room in an attack that prosecutors say her 18-year-old daughter arranged after the two argued about household chores.',
+      'Tamela Dutcher, 55, was sitting on the couch at the family’s home in Delaware County, north of Columbus, when two men pushed inside shortly after midnight on Aug. 14 and fired a single shot, according to court records and local station WBNS.',
+      {
+        type: 'image',
+        src: fairfaxPoliceImage,
+        caption:
+          'Illustrative: emergency lights at a police cordon. Three people have been charged with aggravated murder in the Delaware County case.',
+        alt: 'Police vehicle emergency lights at night',
+      },
+      'Her husband ran toward the sound. The intruders shot at him, missed and fled, officials said. Dutcher was taken to a hospital and pronounced dead.',
+      'Christian Evans, 20, and Dajameous Payne, 21, have been charged with aggravated murder. So has Dutcher’s daughter, Bryanna Dutcher, who also faces a count of obstruction of justice.',
+      { type: 'heading', text: 'A relationship kept secret' },
+      'Investigators say the younger Dutcher had been seeing Evans without telling her parents, whom she described in a police affidavit as deeply racist, because she believed she would be thrown out of the house if they learned she was dating a Black man.',
+      'On the night of the shooting, after the argument with her mother, she texted Evans about it, according to the affidavit. “If I were you, I would have killed her,” he allegedly replied.',
+      'Evans and Payne then waited outside the house for about 15 minutes while she confirmed where each parent was, prosecutors say. She allegedly texted that her mother was in the living room and her father in the basement. Evans replied that they were pulling on gloves and would “take them both out at the same time.”',
+      'Other messages recovered from her phone included the lines “once they both pass away” and “also I believe you should also get a gun,” police said.',
+      { type: 'heading', text: 'Investigators say she misled them' },
+      'In the hours after the shooting, the affidavit says, Bryanna Dutcher first told officers she had seen no one, then pointed them toward a friend of her mother’s who owed her money. Police wrote that she “repeatedly lied to law enforcement,” delaying the identification of suspects.',
+      'Evans was later seen dropping a bag containing a gun holster and a pair of pants into a dumpster outside his apartment, investigators said. His father told police he had received a text from his son that night, and phone data placed Evans near the Dutcher home at the time of the shooting.',
+      { type: 'heading', text: 'Research that reads differently now' },
+      'Dutcher had co-authored a paper on adolescent violence more than two decades earlier. Writing with Daniel Davis in the International Journal of Adolescent Medicine and Health in January 2002, she noted that while the overwhelming majority of juveniles arrested for homicide are boys, the small number of girls who kill tend to kill relatives.',
+      'An indictment accuses the three of acting “purposely, and with prior calculation and design.” All are being held in the Delaware County Jail.',
+      'On Friday, a lawyer for Evans filed a suggestion of incompetency, arguing that he is not currently fit to stand trial and should be examined by a physician while in custody.',
+      'Reporting in this story is based on court records, a police affidavit, and coverage by the New York Post, WBNS and Oxygen. The photograph is a stock file image, not a photograph of the events described.',
+    ],
+    category: 'US News',
+    time: '13:20',
+    section: 'hot',
+    image: fairfaxPoliceImage,
+    byline: 'Alma Shriq News US Desk',
+    date: '2026-08-23',
+  },
   {
     id: '98437335',
     title: 'Grinning Mamdani relentlessly booed at NYPD Staten Island event',
