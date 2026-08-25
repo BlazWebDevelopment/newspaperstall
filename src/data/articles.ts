@@ -142,31 +142,6 @@ export interface Article {
 export const articles: Article[] = [
 
   {
-    id: '98437364',
-    title:
-      'Man Detained After Allegedly Using Live Sheep on Ladder to Collect Donations in European City',
-    summary:
-      'A bizarre scene in a busy European city center drew the attention of pedestrians and authorities after a man allegedly placed a live sheep on top of a wooden ladder as part of an unusual attempt to collect donations from passersby.',
-    body: [
-      'EUROPE — A bizarre scene in a busy European city center drew the attention of pedestrians and authorities today after a man allegedly placed a live sheep on top of a wooden ladder as part of an unusual attempt to collect donations from passersby.',
-      'Witnesses said the sheep was standing several feet above the pavement on a wooden ladder while a handwritten sign reading “DONATIONS — THANK YOU” was placed beside it. A small donation jar was reportedly positioned nearby for people to leave money.',
-      'Photos of the unusual setup quickly began circulating online, with many people questioning whether the animal was safe and how it had been placed on the ladder in the first place.',
-      'Local authorities were eventually called to the scene after concerned pedestrians reported the incident. Officers reportedly ordered the owner to remove the sheep from the ladder and questioned him about the way the animal was being used to solicit money.',
-      { type: 'heading', text: 'Detained over animal welfare and unauthorized solicitation' },
-      'According to preliminary reports, the man was detained and is expected to face questioning over possible animal-welfare violations and unauthorized collection of donations in a public area.',
-      'The sheep was safely removed from the ladder and appeared to be unharmed.',
-      'Officials have not yet released the identity of the person involved or confirmed what charges, if any, will ultimately be filed.',
-      'The strange incident has already sparked discussion online, with some users describing the scene as funny and surreal, while others argued that using a live animal in such a situation crossed the line.',
-    ],
-    category: 'World',
-    time: '16:45',
-    section: 'hot',
-    image: sheepOnLadderHeaderImage,
-    byline: 'NPS World Desk',
-    date: '2026-08-24',
-  },
-
-  {
     id: '98437360',
     title:
       '49ers Owner Jed York Pleads No Contest After $140 Prostitution Sting at Ohio Trailer Park',
