@@ -162,11 +162,11 @@ export const articles: Article[] = [
       'For now, one thing appears certain: CZ has a new best friend, and his name is Carrot.',
     ],
     category: 'Crypto',
-    time: '18:49',
+    time: '12:49',
     section: 'hot',
     image: czCarrotHeaderImage,
     byline: 'NPS Crypto Desk',
-    date: '2026-08-25',
+    date: '2026-08-26',
   },
 
   {
