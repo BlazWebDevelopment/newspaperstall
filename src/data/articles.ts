@@ -38,6 +38,8 @@ import gunnaMemeLifeHeaderImage from '@/context/wLdhwW8h7j.png'
 import gunnaMemeLifeInlineImage from '@/context/fjYOFmvmcg.png'
 import sheepOnLadderHeaderImage from '@/context/ZaGyplTLSk.jpg'
 import czCarrotHeaderImage from '@/context/MAjPhLfsqE.jpg'
+import cryptoHerdHeaderImage from '@/context/zNatPLRG65.png'
+import cryptoHerdBbcFilmImage from '@/context/LFrPDZ2kig.png'
 
 
 const hero1Image =
@@ -144,29 +146,34 @@ export const articles: Article[] = [
 
   {
     id: '98437364',
-    title: 'CZ Binance Welcomes New Dog Named Carrot',
+    title: 'The Crypto Herd: The Animated Adventure Coming Soon',
     summary:
-      'Changpeng Zhao, better known across the crypto world as CZ, has a new companion — a dog named Carrot.',
+      'A new flock is about to enter the world of digital currency. Crypto Herd brings sheep, cryptocurrency, and adventure together in one colorful animated story.',
     body: [
-      'Changpeng Zhao, better known across the crypto world as CZ, has a new companion — a dog named Carrot.',
-      'The Binance co-founder reportedly introduced Carrot as the newest member of his household, quickly attracting attention from crypto fans who are more accustomed to seeing CZ discuss markets, blockchain technology, and the future of digital assets.',
-      'Carrot, a light-colored, shaggy dog with a distinctive beard-like coat, has already earned plenty of attention for his unusual name and recognizable look.',
-      { type: 'heading', text: 'Meet Carrot' },
-      'While CZ has built one of the most recognizable names in cryptocurrency, Carrot could soon become a recognizable face of his own.',
-      'The dog\'s name immediately sparked jokes among crypto followers, with some fans suggesting that Carrot may eventually become CZ\'s unofficial mascot.',
-      'Photos of the pair would mark a much more personal and relaxed side of CZ compared with his usual appearances at conferences, interviews, and industry events.',
-      { type: 'heading', text: 'Crypto\'s Newest Four-Legged Celebrity?' },
-      'Animals have long had a special place in internet and crypto culture, with dogs in particular becoming closely associated with online communities and even major cryptocurrency projects.',
-      'That makes Carrot\'s arrival especially fitting.',
-      'Whether Carrot remains simply CZ\'s new companion or accidentally becomes another internet-famous crypto dog remains to be seen.',
-      'For now, one thing appears certain: CZ has a new best friend, and his name is Carrot.',
+      'A new flock is about to enter the world of digital currency.',
+      'Get ready for Crypto Herd, a colorful new animated movie that brings sheep, cryptocurrency, and a whole lot of adventure together in one hilarious and imaginative story.',
+      {
+        type: 'image',
+        src: cryptoHerdBbcFilmImage,
+        caption: 'BBC Film.',
+        alt: 'BBC Film logo on a black background',
+        link: { href: 'https://bbc-movie.com/', label: 'bbc-movie.com' },
+      },
+      'Set in a world where digital currencies have become part of everyday life, Crypto Herd follows a fearless sheep who discovers that navigating the crypto world isn\'t as simple as following the crowd. Along the way, the flock encounters Bitcoin, Ethereum, Dogecoin, Solana, XRP, Cardano, Polkadot, Chainlink, Litecoin, Avalanche, Polygon, and many more cryptocurrencies.',
+      'But when the value of the digital world suddenly begins to change, the flock faces its biggest challenge yet. Will they panic and follow the herd—or learn to think for themselves?',
+      'With bright animation, comedy, adventure, and plenty of crypto references, Crypto Herd is designed to be an entertaining journey for audiences who know cryptocurrency and newcomers discovering the world for the first time.',
+      'The movie\'s central message is simple: you don\'t always have to follow the herd. Sometimes, you have to lead it.',
+      'Featuring a lovable cast of sheep, a colorful crypto universe, and a story packed with surprises, Crypto Herd promises to turn the complicated world of cryptocurrency into an entertaining animated adventure.',
+      'Crypto Herd — coming soon.',
+      'Follow the herd. Question the herd. Maybe even lead the herd.',
+      'The future is decentralized.',
     ],
-    category: 'Crypto',
-    time: '12:49',
-    section: 'hot',
-    image: czCarrotHeaderImage,
-    byline: 'NPS Crypto Desk',
-    date: '2026-08-26',
+    category: 'Entertainment',
+    time: '16:51',
+    section: 'culture',
+    image: cryptoHerdHeaderImage,
+    byline: 'NPS Entertainment Desk',
+    date: '2026-08-27',
   },
 
   {
